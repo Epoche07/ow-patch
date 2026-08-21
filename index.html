@@ -95,6 +95,16 @@
         color: #00e5ff;
         font-weight: bold;
     }
+    /* 개발자 코멘트 (주황색 세로줄) 스타일 */
+    .dev-comment {
+        border-left: 4px solid #f99e1a;
+        padding-left: 15px;
+        margin-bottom: 25px;
+        color: #d1d5db;
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 700;
+    }
 </style>
 </head>
 <body>
@@ -112,6 +122,9 @@
             <div class="hero-name">디몬 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                이전 패치로 인해 수직 기동성이 과도하게 향상되어, 높은 기본 능력치와 결합해 지나친 위력을 발휘했습니다. 이제 수직 이동은 가능하지만, 지형지물에 밀착해 활용해야만 고지대에 오를 수 있도록 기동성을 합리적으로 조정했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">돌진 강타(우클릭+좌클릭):</span> 원하는 방향으로 자유롭게 돌진 가능, 이동속도 증가 (25m/s → 30m/s)</li>
                 <li><span class="highlight">추진기(Shift):</span> 수직 상승 추진력 70% 대폭 감소 (이제 지형지물에 밀착해서 비벼 올라가야 고지대 등반 가능)</li>
@@ -128,6 +141,9 @@
             <div class="hero-name">시그마 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                최근 다이브와 러시 조합이 강세를 보임에 따라, 포킹 조합 역시 충분한 경쟁력을 갖출 수 있도록 해당 조합의 핵심인 시그마의 유틸리티를 상향했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">실험용 방벽(우클릭):</span> 재사용 대기시간 감소 (1초 → 0.5초), 파괴 시 재사용 대기시간 감소 (5초 → 2.5초)</li>
             </ul>
@@ -142,6 +158,9 @@
             <div class="hero-name">라마트라 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                그동안 라마트라는 네메시스 형태로 변신한 후 가드만 올리고 경우가 많았습니다. 전반적으로 빨라진 게임 템포에 발맞춰 방벽의 가동률을 높이고 궁극기의 파괴력을 강화했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">공허 방벽(우클릭):</span> 재사용 대기시간 감소 (12초 → 9초)</li>
                 <li><span class="highlight">절멸(궁극기):</span> 지속시간 증가 (3~20초 → 4.5~30초)</li>
@@ -157,6 +176,9 @@
             <div class="hero-name">레킹볼 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                교전 중 탄창 부족으로 인해 확실한 마무리를 짓지 못하고 이탈해야 하는 답답한 상황을 완화하기 위해 기본 장탄수를 증가시켰습니다.
+            </div>
             <ul>
                 <li><span class="highlight">무기:</span> 탄창 증가 (80발 → 100발)</li>
             </ul>
@@ -171,6 +193,9 @@
             <div class="hero-name">윈스턴 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                전반적인 교전 템포가 빨라짐에 따라, 윈스턴이 적진에 진입하여 생존할 수 있는 여력을 높여주기 위해 방벽 생성기의 쿨타임을 감소시켰습니다.
+            </div>
             <ul>
                 <li><span class="highlight">방벽 생성기(E):</span> 재사용 대기시간 감소 (12초 → 11초)</li>
             </ul>
@@ -185,6 +210,9 @@
             <div class="hero-name">라인하르트 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                러시 조합에서 방벽을 전개한 상태로 적진을 향해 더욱 빠르고 위협적으로 전진할 수 있도록 이동 속도 페널티를 대폭 완화했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">방벽 방패(우클릭):</span> 이동 속도 감소 페널티 완화 (30% → 15%)</li>
             </ul>
@@ -199,6 +227,9 @@
             <div class="hero-name">로드호그 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                템포가 빨라진 전장에서 사슬 갈고리를 통한 변수 창출 기회를 확대했습니다. 또한 숨 돌리기의 이동 속도 증가 효과를 활용하여 위험한 순간에서 빠르게 벗어날 수 있도록 생존력을 부여했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">사슬 갈고리(Shift):</span> 재사용 대기시간 감소 (7초 → 6초)</li>
                 <li><span class="highlight">숨 돌리기(E):</span> 사용 중 이동 속도 30% 증가 버프 추가</li>
@@ -214,6 +245,9 @@
             <div class="hero-name">도미나 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                선택률이 저조했던 도미나의 실전성을 전체적으로 끌어올렸습니다. 진입하는 적을 효과적으로 튕겨내고 난전에서 끈질기게 버틸 수 있도록 패시브를 강화했으며, 내구도가 부족했던 방벽의 가동률을 높여 진형 장악 능력을 개선했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">소닉 리펄서(Shift):</span> 재사용 대기시간 감소 (7초 → 6초), 밀쳐내기 거리 20% 증가</li>
                 <li><span class="highlight">재조립(패시브):</span> 획득하는 보호막 회복량 증가 (피해량의 75% → 100%)</li>
@@ -230,6 +264,9 @@
             <div class="hero-name">정커퀸 <span class="tag">(너프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                정커퀸이 적진 깊숙이 파고들었을 때 받는 폭발적인 피해를 감당하기 어렵다는 점을 보완했습니다. 지휘의 외침 사용 시 짧은 무적 판정을 부여해 치명적인 공격을 흘려보내게 하고, 신규 패시브로 난전 지속력을 대폭 강화했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">기본 패시브:</span> 받는 회복량 15% 증가</li>
                 <li><span class="highlight">지휘의 외침(Shift):</span> 사용 시 정커퀸에게 0.8초 동안 순간 무적 부여</li>
@@ -252,6 +289,9 @@
             <div class="hero-name">둠피스트 <span class="tag">(조정 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                '하이 리스크 하이 리턴'이라는 둠피스트의 정체성을 한층 심화했습니다. 시선을 아래로 숙이는 세밀한 조작을 통해 전면 공격에 대한 방어 효율을 극대화할 수 있지만, 후방이 노출되었을 때의 위험도 역시 크게 증가하여 플레이어의 숙련도가 더욱 중요해졌습니다.
+            </div>
             <ul>
                 <li><span class="highlight">파워 블락(E):</span> 사용 중 시선을 아래로 40도 이상 숙일 경우, 받는 피해량 배율 150%로 증가 (정면으로 고개를 들면 즉시 원상 복구)</li>
             </ul>
@@ -270,6 +310,9 @@
             <div class="hero-name">겐지 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                다소 부족했던 겐지의 기본 체급을 상향 조정했습니다. 특히 용검이 발동되었을 때 상대에게 충분한 압박감을 주지 못하던 문제를 해결하여, 이름에 걸맞은 치명적인 위력을 발휘할 수 있게 개선했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">용검(궁극기):</span> 공격력 증가 (110 → 125)</li>
                 <li><span class="highlight">수리검:</span> 발당 공격력 증가 (27 → 29)</li>
@@ -285,6 +328,9 @@
             <div class="hero-name">리퍼 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                적과 근접해서 교전해야 하는 리퍼의 특성을 고려하여 기본 생존력을 높였습니다. 또한 죽음의 꽃 사용 도중 포커싱 당해 제압되는 상황을 방지하고자 능동적인 캔슬 기능을 추가했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">기본 스탯:</span> 생명력 증가 (275 → 300)</li>
                 <li><span class="highlight">죽음의 꽃(궁극기):</span> 사용 중 망령화로 궁극기 캔슬 가능</li>
@@ -300,6 +346,9 @@
             <div class="hero-name">정크랫 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                정크랫의 시그니처였던 평타-지뢰 암살 콤보를 부활시켰습니다. 또한 죽이는 타이어가 목표에 도달하기도 전에 너무 쉽게 파괴되던 현상을 완화하여 궁극기의 가치를 높였습니다.
+            </div>
             <ul>
                 <li><span class="highlight">충격 지뢰(Shift):</span> 공격력 10 증가</li>
                 <li><span class="highlight">죽이는 타이어(궁극기):</span> 타이어가 받는 피해 33% 감소</li>
@@ -315,6 +364,9 @@
             <div class="hero-name">프레야 <span class="tag">(너프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                프레야의 지속 화력이 상대 진영에 지나치게 불합리한 압박을 가하고 있어, 기본 공격의 피해량을 적절한 수준으로 하향 조정했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">기본 공격(좌클릭):</span> 발당 피해량 감소 (30 → 28.2)</li>
             </ul>
@@ -329,6 +381,9 @@
             <div class="hero-name">위도우메이커 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                기동성이 뛰어난 다이브 영웅들의 습격으로부터 위도우메이커가 스스로 거리를 벌리고 생존할 수 있는 여력을 조금 더 제공하고자 합니다.
+            </div>
             <ul>
                 <li><span class="highlight">갈고리 발사(Shift):</span> 재사용 대기시간 감소 (10초 → 8초)</li>
                 <li><span class="highlight">맹독 지뢰(E):</span> 밟은 적의 이동 속도 30% 감소 (5초 지속)</li>
@@ -344,6 +399,9 @@
             <div class="hero-name">애쉬 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                전투 중 재장전에 지나치게 많은 시간이 소모된다는 피드백을 수용하여, 탄약 보충 속도를 눈에 띄게 개선하여 딜 로스를 줄였습니다.
+            </div>
             <ul>
                 <li><span class="highlight">바이퍼:</span> 재장전 시 한 번에 총알 3발씩 장전</li>
             </ul>
@@ -358,6 +416,9 @@
             <div class="hero-name">토르비욘 <span class="tag">(너프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                대장간 망치의 이동 속도 증가 옵션이 본래 의도와 달리 원거리 무기 사용을 저해하고 비정상적인 플레이를 고착화하는 경향이 있어 해당 수치를 하향했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">대장간 망치:</span> 망치를 들고 있는 동안 이동 속도 10% 증가</li>
             </ul>
@@ -372,6 +433,9 @@
             <div class="hero-name">솔저: 76 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                기본 체급이 다소 부족한 점을 보완하는 동시에, 매 교전마다 예측 불가능한 변수를 창출할 수 있도록 나선 로켓을 새롭게 개편했습니다. 행운이 따른다면 눈에 띄게 강력해진 화력을 체감할 수 있을 것입니다. 또한 전술 조준경의 실질적인 살상력을 높였습니다.
+            </div>
             <ul>
                 <li><span class="highlight">나선 로켓(우클릭):</span>
                     <ul>
@@ -402,6 +466,9 @@
             <div class="hero-name">메이 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                고드름의 치명타 피해량을 상향하여 정교한 에임에 대한 확실한 보상을 부여했습니다. 아울러 탄창을 소모하는 대신 이동 속도를 대폭 끌어올릴 수 있는 신규 효과를 추가하여, 메이의 고질적인 기동성 문제를 해소했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">고드름(우클릭):</span> 공격력 5 증가 (트레이서 헤드샷 원콤 가능)</li>
                 <li><span class="highlight">냉각총(좌클릭):</span> <span class="new-effect">[신규 효과]</span> 아이스 스케이팅 (바닥에 쏘며 이동 시 이동 속도 40% 대폭 증가, 발사 중단 시 해제)</li>
@@ -417,6 +484,9 @@
             <div class="hero-name">바스티온 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                강습 모드가 종료되고 수색 모드로 전환되는 타이밍은 바스티온이 가장 취약해지는 순간입니다. 해당 시점에 추가 방어구를 부여하여 생존력을 보강했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">강습 모드(Shift):</span> 활성화 중 이동 속도 10% 증가, 모드 종료 시 4초 동안 추가 방어구 50 부여</li>
             </ul>
@@ -431,6 +501,9 @@
             <div class="hero-name">벤처 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                처치 기여 시 이동기의 재사용 대기시간이 감소하는 효과를 추가하여, 벤처 특유의 적진을 파고드는 기동성을 한층 날카롭게 다듬었습니다.
+            </div>
             <ul>
                 <li><span class="highlight">패시브:</span> 처치 기여 시 잠복과 드릴 돌진의 쿨타임 1초 단축</li>
             </ul>
@@ -445,6 +518,9 @@
             <div class="hero-name">한조 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                포킹 딜러로서의 입지를 굳히기 위해 폭풍 화살의 횟수를 늘려 진입하는 적에 대한 억제력을 높였습니다. 음파 화살의 가동률 향상과 처치 시 기동 스킬 초기화를 통해 연속적이고 위협적인 교전이 가능해집니다.
+            </div>
             <ul>
                 <li><span class="highlight">폭풍 화살(E):</span> 화살 개수 증가 (5발 → 6발)</li>
                 <li><span class="highlight">음파 화살(Shift):</span> 재사용 대기시간 감소 (12초 → 10초)</li>
@@ -461,6 +537,9 @@
             <div class="hero-name">시에라 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                추적 사격의 가동률을 높이고 진동 폭약에 이동 속도 감소 효과를 추가하여 러시 조합을 상대로 확실한 억제력을 발휘하도록 개선했습니다. 처치 시 기동 스킬이 초기화되어 더욱 속도감 있는 플레이가 가능해집니다.
+            </div>
             <ul>
                 <li><span class="highlight">진동 폭약(E):</span> 적중 시 적 이동 속도 20% 감소 (2초 지속)</li>
                 <li><span class="highlight">추적 사격(우클릭):</span> 재사용 대기시간 감소 (10초 → 8초)</li>
@@ -477,6 +556,9 @@
             <div class="hero-name">캐서디 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                다이브 영웅을 상대할 때 캐서디가 능동적으로 생존하고 추가적인 변수를 창출할 수 있도록, 처치 시 구르기가 초기화되는 기능을 새롭게 도입했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">패시브:</span> 결정타(막타) 성공 시 구르기 쿨타임 즉시 초기화</li>
             </ul>
@@ -491,6 +573,9 @@
             <div class="hero-name">벤데타 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                수차례의 너프 이후 픽률이 하락한 점을 고려하여, 가한 피해량에 비례해 생명력을 즉시 회복하는 능력을 부여해 다이브 조합에서의 전투 지속력을 높였습니다.
+            </div>
             <ul>
                 <li><span class="highlight">패시브:</span> 적에게 입힌 모든 피해량의 15%만큼 본인 생명력 즉시 흡혈</li>
             </ul>
@@ -505,6 +590,9 @@
             <div class="hero-name">에코 <span class="tag">(버그 픽스 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                내전 환경의 일관성을 위해, 에코가 궁극기로 적을 복제할 때 커스텀 밸런스가 적용된 버전으로 정상 복제되도록 시스템을 수정했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">복제(궁극기):</span> 복제 시 대상 영웅의 커스텀 밸런스 패치 내역이 정상적으로 적용되도록 수정</li>
             </ul>
@@ -523,6 +611,9 @@
             <div class="hero-name">메르시 <span class="tag">(리메이크 / 버그 픽스)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                메르시 플레이어에게도 전황을 뒤집을 수 있는 공격적인 변수 창출 기회를 부여하고자 합니다. 발키리 상태에서 보다 위협적인 활약이 가능하도록 밸런스를 재조정했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">카두세우스 블라스터:</span> <span class="new-effect">[신규 효과]</span> 차징 모드
                     <ul>
@@ -549,6 +640,9 @@
             <div class="hero-name">키리코 <span class="tag">(너프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                기본 치유량이 지나치게 높아 교전을 고착화시키는 문제를 조절하고, 전황에 미치는 영향력이 지대한 정화의 방울 쿨타임을 늘려 스킬 사용의 신중함을 요구하도록 변경했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">부적:</span> 초당 치유량 8% 감소</li>
                 <li><span class="highlight">정화의 방울(E):</span> 재사용 대기시간 증가 (15초 → 16초)</li>
@@ -564,6 +658,9 @@
             <div class="hero-name">아나 <span class="tag">(너프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                생체 수류탄이 단일 스킬로서 아군 치유와 적군 견제 양면에서 모두 압도적인 위력을 발휘하고 있어, 전체적인 수치를 적정선으로 하향 조정했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">생체 수류탄(E):</span> 폭발 피해량 및 치유량 감소 (90 → 75)</li>
             </ul>
@@ -578,6 +675,9 @@
             <div class="hero-name">바티스트 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                포킹 힐러로서의 정체성을 굳히기 위해, 바티스트가 전방 화력에 더욱 적극적으로 기여할 수 있도록 조건부로 피해량을 상향했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">패시브:</span> 공중에 있는 동안 가하는 피해량 20% 증가</li>
             </ul>
@@ -592,6 +692,9 @@
             <div class="hero-name">모이라 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                개인의 생존과 회피에만 치중되어 있던 소멸 기술에 아군 지원 능력을 새롭게 부여했습니다. 이제 진형 이동 시 이타적인 시너지를 낼 수 있습니다.
+            </div>
             <ul>
                 <li><span class="highlight">소멸(Shift):</span> 사용 시 10m 반경 내 아군에게 이동 속도 20% 버프 부여 (4초 지속, 모이라 본인 제외)</li>
             </ul>
@@ -606,6 +709,9 @@
             <div class="hero-name">라이프위버 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                구원의 손길에 제어 효과를 더해 수비적인 스킬을 역으로 변수 창출에 활용할 수 있게 개선했습니다. 전반적인 쿨타임 단축을 통해 생존력과 전략적 유연성을 한층 강화했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">구원의 손길(E):</span> 아군을 당길 때 당겨지는 아군 주변 3m 적 1초 기절 추가, 쿨타임 감소 (18초 → 14초)</li>
                 <li><span class="highlight">산들걸음(Space):</span> 재사용 대기시간 감소 (5초 → 4초)</li>
@@ -622,6 +728,9 @@
             <div class="hero-name">일리아리 <span class="tag">(버프)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                뛰어난 화력에 비해 다소 부족했던 기본 치유 능력을 상향하여 포킹 조합의 유지력을 보강했습니다. 또한 다이브 영웅들에게 포커싱 당했을 때 유연하게 대처할 수 있도록 분출의 가동률을 높였습니다.
+            </div>
             <ul>
                 <li><span class="highlight">치유의 태양석(E):</span> 재사용 대기시간 감소 (14초 → 12초)</li>
                 <li><span class="highlight">분출(Shift):</span> 재사용 대기시간 감소 (8초 → 7초)</li>
@@ -638,6 +747,9 @@
             <div class="hero-name">젠야타 <span class="tag">(너프 / 2차)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                후방에서 화력을 지원하는 젠야타가 적의 기습에 무력하게 당하지 않도록 밀어차기에 화상 피해를 추가했습니다. 이제 초근접 교전에서도 상대를 강력하게 압박할 수 있습니다.
+            </div>
             <ul>
                 <li><span class="highlight">스냅 킥(밀어차기):</span> 적중당한 적에게 4초 동안 화상 피해 적용 (초당 5, 총 20 데미지)</li>
             </ul>
@@ -652,8 +764,11 @@
             <div class="hero-name">주노 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                다소 수동적이었던 스킬셋을 공격적이고 능동적인 형태로 개편했습니다. 펄사 어뢰에 강력한 약화 효과를 부여하고, 글라이드 부스트 사용 중 아군 치유량을 증폭시켜, 전황을 주도하는 지원가로 설계했습니다.
+            </div>
             <ul>
-                <li><span class="highlight">펄서 어뢰(우클릭):</span> 적중 시 4초간 벽 너머로 보이는 해골 징표 생성 및 적 받는 피해량 15% 증가 효과 추가</li>
+                <li><span class="highlight">펄사 어뢰(우클릭):</span> 적중 시 4초간 벽 너머로 보이는 해골 징표 생성 및 적 받는 피해량 15% 증가 효과 추가</li>
                 <li><span class="highlight">글라이드 부스트(Shift):</span> 체공 중 아군에게 주는 치유량 30% 증폭</li>
             </ul>
         </div>
@@ -667,6 +782,9 @@
             <div class="hero-name">루시우 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                환경 요소 외에도 치명적인 한 방을 노릴 수 있는 신규 기믹을 추가했습니다. 높은 리스크를 동반하지만, 성공했을 때 압도적인 쾌감을 느낄 수 있는 궁극기 타격 판정을 새롭게 도입했습니다.
+            </div>
             <ul>
                 <li><span class="highlight">소리 방벽(궁극기):</span> 시전 후 공중에 0.5초 이상 체공하다가 적 머리 위에 찍으며 착지할 경우 해당 적에게 300 피해</li>
             </ul>
@@ -681,6 +799,9 @@
             <div class="hero-name">미즈키 <span class="tag">(버프 / 신규)</span></div>
         </div>
         <div class="hero-body">
+            <div class="dev-comment">
+                본 서버의 연속적인 하향 패치로 위축되었던 미즈키의 도주 및 변수 창출 능력을 보완하기 위해 핵심 생존기의 재사용 대기시간을 소폭 돌려주었습니다.
+            </div>
             <ul>
                 <li><span class="highlight">종이 인형 분신술(Shift):</span> 재사용 대기시간 감소 (12초 → 11초)</li>
             </ul>
