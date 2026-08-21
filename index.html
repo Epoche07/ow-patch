@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>오버워치 2 내전 커스텀 패치 노트</title>
+<!-- 공식 홈페이지 느낌을 살려주는 Noto Sans KR 폰트 불러오기 -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+    body {
+        background-color: #4b84c8;
+        color: #ffffff;
+        font-family: 'Noto Sans KR', sans-serif;
+        padding: 40px 60px;
+        margin: 0;
+        line-height: 1.6;
+    }
+    h1 {
+        font-size: 42px;
+        font-weight: 900;
+        border-bottom: 3px solid #ffffff;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+    .role-title {
+        font-size: 34px;
+        font-weight: 900;
+        margin-top: 60px;
+        margin-bottom: 25px;
+        letter-spacing: -1px;
+    }
+    .hero-container {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: #5b90d2;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .hero-header {
+        display: flex;
+        align-items: center;
+        background-color: #639ae5;
+        padding: 15px 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    /* 영웅 사진 박스 디자인 */
+    .img-placeholder {
+        width: 72px; 
+        height: 72px;
+        background-color: #2b5796;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        margin-right: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .hero-name {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: -0.5px;
+    }
+    .tag {
+        font-size: 18px;
+        color: #d1e4ff;
+        margin-left: 12px;
+        font-weight: 700;
+    }
+    .hero-body {
+        padding: 25px 35px;
+    }
+    .hero-body ul {
+        margin: 0;
+        padding-left: 25px;
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .hero-body li {
+        margin-bottom: 12px;
+    }
+    .hero-body ul ul {
+        margin-top: 10px;
+        font-size: 18px;
+        list-style-type: circle;
+    }
+    .highlight {
+        font-weight: bold;
+        color: #ffe699;
+    }
+    .new-effect {
+        color: #00e5ff;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+    <h1>오버워치 2 내전 커스텀 패치 노트</h1>
+
+    <!-- 탱커 섹션 -->
+    <div class="role-title">🛡️ 돌격 (탱커)</div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/cIdTH4Ho34m20am1zJkmOEbvG8zF2uEwDXFP6LaoLGeGNSmDKVXFbmqUCHeE9-ABM1tM7Jtg2w3QLvUwnyH_sdqXULGBQwKyWmiPLucnr7Ys7Qb_RVCg0mMuJXo7pIj9y1yHHG5uM7jW-GT4_YfRxw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="디몬">
+            </div>
+            <div class="hero-name">디몬 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">돌진 강타(우클릭+좌클릭):</span> 원하는 방향으로 자유롭게 돌진 가능, 이동속도 증가 (25m/s → 30m/s)</li>
+                <li><span class="highlight">추진기(Shift):</span> 수직 상승 추진력 70% 대폭 감소 (이제 지형지물에 밀착해서 비벼 올라가야 고지대 등반 가능)</li>
+                <li><span class="highlight">메카 호출(궁극기):</span> 호출 시간 단축, 공격력 대폭 증가 (75~150 → 150~300)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/FHwnIIP4o0xA0jxoe4u0XPfo8oP3gIjxoCQjb0lI1tNUVjDnyDXrZ5t6x2YNEsHJ69GbvAQOCP01pgDNogXqkGxPZqZuoa4zt1FOUAejnGIXcox2oH2ZY-CD-W47EVcyXCK8jJVchhIh03I_nB4_6g.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="시그마">
+            </div>
+            <div class="hero-name">시그마 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">실험용 방벽(우클릭):</span> 재사용 대기시간 감소 (1초 → 0.5초), 파괴 시 재사용 대기시간 감소 (5초 → 2.5초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/17eZ2Z4xB6luQ3AFgP6k66kEbcvYYbFt-ktzSJ6_qxJgjuiyxgTR9NJkEgkfWVLf4dMuAQL05OpwT4ux4JMxlB1ti-Y0vqFn0KvdCj2_ootc1ambhsCgznPZ-ULNHMcgs3rurfktrz4KgG9j7L8W6A.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="라마트라">
+            </div>
+            <div class="hero-name">라마트라 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">공허 방벽(우클릭):</span> 재사용 대기시간 감소 (12초 → 9초)</li>
+                <li><span class="highlight">절멸(궁극기):</span> 지속시간 증가 (3~20초 → 4.5~30초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/xaFK1bbiYN3lojMWKwJyUJPjp0CNDabcRC4YWQlc3ilcGykpdzmwdufn-mC6r7K0YRd-t0sXWSD9hDc60wTg0Xrfl07hgOuqccbHZEbPPRPZY8A73Kes7mUpF1vGd2_04JcpEeWsKgW3NFiws2BqsA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="레킹볼">
+            </div>
+            <div class="hero-name">레킹볼 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">무기:</span> 탄창 증가 (80발 → 100발)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/NErlQWK-qacZYXRfZcRSIHDeRzoCZ9i5-qeSmKI-G73hE477qVvoBnyoUleCgLPN4VvabpvdDS8Tkx2r7WrUlOkzjsfk0UiqwwAWd1lgyBRHEc0wymX28gY0vyStwN0Qi603kdjyVd1RS44uLpi5kQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="윈스턴">
+            </div>
+            <div class="hero-name">윈스턴 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">방벽 생성기(E):</span> 재사용 대기시간 감소 (12초 → 11초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/T-0Z3Yr4DMUcH2Qf-RkXu-cVK25fAJO-1z4w3XU8W9R-AQX3I6a4jpofPkdi4xNLVRjTNW1MMsyidHD8nJoLvTqyfEyA-9qv3-50KeREvkqtnjsAfVKRTjuRA0Ceji5tDzLpry9lmhC2TTtVSWvHdg.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="라인하르트">
+            </div>
+            <div class="hero-name">라인하르트 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">방벽 방패(우클릭):</span> 이동 속도 감소 페널티 완화 (30% → 15%)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/japYwsZKCwe417L0HuzA7pMUDDkzL8jKI4dIK9ZOxbOqqVf0h29_mnGKnJj3D0ptt9IeGfBFbM3zh2oDSkJYnJ27GfwJdD4RVMA5iVrS1uyHClZIDpQk5ZZ7-hYQKq300QUjEtMnJEAN3D9rSxvfng.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="로드호그">
+            </div>
+            <div class="hero-name">로드호그 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">사슬 갈고리(Shift):</span> 재사용 대기시간 감소 (7초 → 6초)</li>
+                <li><span class="highlight">숨 돌리기(E):</span> 사용 중 이동 속도 30% 증가 버프 추가</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/qplzcLeVJd8xPV8_bRlzdD5TpSlQ0bmz1TpY0kzMYSbbA8rQkGtues5rF9aTHM0c8ijzzr5oRFGlGpAL_KlsDuKTxBNW_OhuBXfSKdiCNcGAmDfnktW76NlrvEZRxr5HczPznLTk-XnUw6OMbs_eVQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="도미나">
+            </div>
+            <div class="hero-name">도미나 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">소닉 리펄서(Shift):</span> 재사용 대기시간 감소 (7초 → 6초), 밀쳐내기 거리 20% 증가</li>
+                <li><span class="highlight">재조립(패시브):</span> 획득하는 보호막 회복량 증가 (피해량의 75% → 100%)</li>
+                <li><span class="highlight">방벽 배열(우클릭):</span> 재사용 대기시간 감소 (14초 → 10초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/CK2R41Ei6uYH59afoashSRH7uDJ7ityy5uozkwk1cppqTu4pUzpNRxrPzO7I9ZcOyOAvhLLl-PLxsWw7sSSGhBlPGWSxbn1ejh5XaR28tqQvc6HgCv7cz3bbDzxxjrhG5WtkqvbwA0XAn6g1_fhGMA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="정커퀸">
+            </div>
+            <div class="hero-name">정커퀸 <span class="tag">(너프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">기본 패시브:</span> 받는 회복량 15% 증가</li>
+                <li><span class="highlight">지휘의 외침(Shift):</span> 사용 시 정커퀸에게 0.8초 동안 순간 무적 부여</li>
+                <li><span class="highlight">아드레날린 촉진(패시브):</span> <span class="new-effect">[신규 효과]</span> 과다 치유
+                    <ul>
+                        <li>최대 체력 초과 회복 시 초과분만큼 임시 보호막 전환</li>
+                        <li>지속 시간: 일반 기술/근접 공격(3초), 궁극기(4.5초) 유지 후 소멸</li>
+                        <li>도륙으로 다수 적중 시에도 1명분의 수치만 보호막 적용</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/eAMaQ-UXfJ6AKJdBJxQXD1BFheRSzsnBRstL2xKkih8z4KmDW56zBw6TWIB5xXpagMZpYkX28pQQdx-X8J9FEyek1tGWUny7RmXkQm-JDeeiXb6VTi0blykaP1jJoj8_3DBY9HXG0VOSmLYkOGI8DQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="둠피스트">
+            </div>
+            <div class="hero-name">둠피스트 <span class="tag">(조정 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">파워 블락(E):</span> 사용 중 시선을 아래로 40도 이상 숙일 경우, 받는 피해량 배율 150%로 증가 (정면으로 고개를 들면 즉시 원상 복구)</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 딜러 섹션 -->
+    <div class="role-title">⚔️ 공격 (딜러)</div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/uARul1XupQ6nBJECsiQ-W4nxIlLxykMX_f8b-tCefqRKqyVbn1UXcsXY7RlTxbqswYIL2eTQ7BKlK8alc8LtE6Wa660xmt9TdhPuj8qjejbQYbghilukQac1vlhjJf1BPKPV_Nu7KRucIsdrgBN9Jg.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="겐지">
+            </div>
+            <div class="hero-name">겐지 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">용검(궁극기):</span> 공격력 증가 (110 → 125)</li>
+                <li><span class="highlight">수리검:</span> 발당 공격력 증가 (27 → 29)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/Wehkm9ci9f3eWoIXw6qHYX1fi5Bb_HuCX6hkdjHX_XSmsAxJHY9e13LpO7YeLxFHYsCf4f2i-fvtboInAOehlcdsmXb2EvtMaBUPWrxU0PG2lvcblaCHmVidmmMdnuOEaR4-Ls3wIa26wsbgzcNBog.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="리퍼">
+            </div>
+            <div class="hero-name">리퍼 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">기본 스탯:</span> 생명력 증가 (275 → 300)</li>
+                <li><span class="highlight">죽음의 꽃(궁극기):</span> 사용 중 망령화로 궁극기 캔슬 가능</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/Tvz-41kXFD3iDcWMWeLO5-EW5xVY00OdY4E32m3YTuPcvBbLZISQ9fVdb1KbhyqQxU1eEqtIpVeEnScL_q8YatGc_L6SNkJ15-M5qBmACaF838AY8EIeZBqAQWoXs3eFhUgL1z63oWMouSculacljw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="정크랫">
+            </div>
+            <div class="hero-name">정크랫 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">충격 지뢰(Shift):</span> 공격력 10 증가</li>
+                <li><span class="highlight">죽이는 타이어(궁극기):</span> 타이어가 받는 피해 33% 감소</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/gg_BT3tDaErixxfhRyupC_dQ08IrW5QpryTRQAWWkn7LdOidekZNBuJmS5Wtzj3QjSHyfYRW7D7vpwJ5U1ofQ860WjTiU9P5AnFG9Q793HefLWwIaDAqBHTqMYhxiAKDy76eyk5aIHv3YFIGBcnCBA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="프레야">
+            </div>
+            <div class="hero-name">프레야 <span class="tag">(너프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">기본 공격(좌클릭):</span> 발당 피해량 감소 (30 → 28.2)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/pE4o9iJyu5dfIlQsQK6QP01zykrZnH2hcI1no_ecy0pBS9C1N41CoCTc2xUrjIttHEC7xHN-u8nuNaQn9gZyN0kKuH7V-0NLTmZnuOayEd8U_Wv3E4TFvkWXRkj_o00roaJT_pVM7aWEY4X4p74MZA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="위도우메이커">
+            </div>
+            <div class="hero-name">위도우메이커 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">갈고리 발사(Shift):</span> 재사용 대기시간 감소 (10초 → 8초)</li>
+                <li><span class="highlight">맹독 지뢰(E):</span> 밟은 적의 이동 속도 30% 감소 (5초 지속)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/0bvUV82ZyYZkQ30Mvv6mKPtSvzY6i-gXH46etXxlWrY8lsy-E6BKeC4kboJDu21795JXHARh2biDa5WUv6Q2gML-MRmi02-Cxzf9VHsoYoUlYfM3yempaJT3bT0uLwGogD5r2acPksPxVzouNFr55w.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="애쉬">
+            </div>
+            <div class="hero-name">애쉬 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">바이퍼:</span> 재장전 시 한 번에 총알 3발씩 장전</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/cVA8wHOCTl9B1ObmnJAGtY8wfxbJGikHEFEOXHpJo2jU8qO59r3t_PFVEHXsIolsTX-VR0TvAhvZsgSGMJkQzJGUf6bB59u0ZGJvNzgHzrg8Pmo2ciY5qSE1eoEsSNpdlvk5B4gSQ9mUngtszuEJPQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="토르비욘">
+            </div>
+            <div class="hero-name">토르비욘 <span class="tag">(너프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">대장간 망치:</span> 망치를 들고 있는 동안 이동 속도 10% 증가</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/nH7X4HoF8Jr7HnQF3hKTAOV4KOLbIT69-NmEngsI3WP2dzGveEQ8P2J_2VKR20EILB5DFzD2odUERMSh5wx7cn4UFYZfP4GN2hYI2jvxzi07riZ1JAKTGfcFZIWhKlapJIK3uz23ESYHkwmn6z1qcQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="솔저: 76">
+            </div>
+            <div class="hero-name">솔저: 76 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">나선 로켓(우클릭):</span>
+                    <ul>
+                        <li>직격 보상: 113 이상 피해 발생 시 쿨타임 즉시 4초로 단축 (기본 6초)</li>
+                        <li><span class="new-effect">[신규 효과]</span> 카지노: 76
+                            <ul>
+                                <li>랜덤 데미지: 120~160 무작위 피해 (120: 40% / 130: 30% / 140: 15% / 150: 10% / 160: 5%)</li>
+                                <li>상태 이상 룰렛(자해 포함): 30% 확률로 발동</li>
+                                <li>화상 (3초간 초당 10의 지속 피해): 10% 확률</li>
+                                <li>치유량 50% 감소 (2초간 보라색 오라 이펙트 발생): 8% 확률</li>
+                                <li>해킹 (1초): 6% 확률</li>
+                                <li>넘어짐 (1초): 3% 확률</li>
+                                <li>빙결 (1초): 3% 확률</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><span class="highlight">전술 조준경(궁극기):</span> 이동 속도 30% 증가 삭제, 대신 가하는 모든 피해량 25% 증가 (기본 공격력 19 → 23.75)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/_MckabWAUl__9eLp3H0UF-WbEUgT5luYftKV1EUrvbZSKGT0bBNe4jxkl8AO9I54B7pT-8mMiS_BSNUlPZBE6Yd0Tady5iGHDmrgLdcTXbNrqvVI1F8CRuwo9_goC81ODxrciX8AjzNCVMbkeyYRUw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="메이">
+            </div>
+            <div class="hero-name">메이 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">고드름(우클릭):</span> 공격력 5 증가 (트레이서 헤드샷 원콤 가능)</li>
+                <li><span class="highlight">냉각총(좌클릭):</span> <span class="new-effect">[신규 효과]</span> 아이스 스케이팅 (바닥에 쏘며 이동 시 이동 속도 40% 대폭 증가, 발사 중단 시 해제)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/C4D4iN5Q7e66-XXsCKtW9oNxFCi3Krd3CYqMZ0q_mW69w0r9mLICfA8CdGFJw5XsObX3ep6pBtwvnJAQSHOv2VDWeXQ63ihHtP5xcy48B__Vt1MP_JvP8bMrQn2qKsRO2bFqyfBnKdpb7OzyufSa_g.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="바스티온">
+            </div>
+            <div class="hero-name">바스티온 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">강습 모드(Shift):</span> 활성화 중 이동 속도 10% 증가, 모드 종료 시 4초 동안 추가 방어구 50 부여</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/_PV_OLyuHN9ZAYQAG20eRg0HkfYpWBLksghPBmEsSoOaktTPeL7kSN96s1NZGzo-AgrlUQOQPRLa1ADWWzbHUpnChMK6n_rmitslr7T-GYa-9AMLmTeIgHm73HPZYfhssuvXsLyi5AabqP3nmRd5Zw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="벤처">
+            </div>
+            <div class="hero-name">벤처 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">패시브:</span> 처치 기여 시 잠복과 드릴 돌진의 쿨타임 1초 단축</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/e2viL5mxyoebkWTaa6UZWpEWzndZ-eoaOqFz2078wjq8T_ugyZbHPVUO-E0Rwzp7zbbWlrhD8s1d750ulFgsoUbtsjxX0JkUIEyoA0MLR8aPxXUXa6_-uDSnvwd2NDNVGEHKoGhT56BULL-us7tWHg.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="한조">
+            </div>
+            <div class="hero-name">한조 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">폭풍 화살(E):</span> 화살 개수 증가 (5발 → 6발)</li>
+                <li><span class="highlight">음파 화살(Shift):</span> 재사용 대기시간 감소 (12초 → 10초)</li>
+                <li><span class="highlight">패시브:</span> 결정타(막타) 성공 시 이단 뛰기 쿨타임 즉시 초기화</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/sF0NEFeg8HGKOBbCQyqxXNZAq5pkX7aorsD1fv8LAJrWnhi28L_yiAAxj_wCXXr7lHmVoQVCpGa9WIPmnTAUNZVM40WBPqie1F-gJCCapCda8CTHSMB_OCR0CsB7NQHJQLqisWjjDthI03Qehy5__A.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="시에라">
+            </div>
+            <div class="hero-name">시에라 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">진동 폭약(E):</span> 적중 시 적 이동 속도 20% 감소 (2초 지속)</li>
+                <li><span class="highlight">추적 사격(우클릭):</span> 재사용 대기시간 감소 (10초 → 8초)</li>
+                <li><span class="highlight">앵커 드론(Shift):</span> 결정타(막타) 성공 시 쿨타임 즉시 초기화</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/Z1diZLhurl4aGoWmunrRTlcfslEfb1DW72Kl6TAAzDwpGxPID-mabGhbsxHEJqZccGQXkpVLhBqMqjzb2RBQH1lUkMjKVdc9CUOQNhqNqEBreIqt5o9VPlX8kBkrftaUNEpBjxXv9mWcjawNkhMOEw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="캐서디">
+            </div>
+            <div class="hero-name">캐서디 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">패시브:</span> 결정타(막타) 성공 시 구르기 쿨타임 즉시 초기화</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/hGC4tO5TNUxTbaMPHUpG3vePywuFVcr9ZzREO8XaUkX0AUFvDWV7lelCz9Jas9RVQEkjqEIv5vOsMjMI9cT_jtkoPpSy463ZXx_xN6XRhrqmdp5QUuHJU0_VdseTrpLFIDSbe6dwCGIMCG17ZyaobA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="벤데타">
+            </div>
+            <div class="hero-name">벤데타 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">패시브:</span> 적에게 입힌 모든 피해량의 15%만큼 본인 생명력 즉시 흡혈</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/xGbacQUJ5Bh5WpjpgtNUwoanDOT7XeukCJh9I7dh68-uQO29utNboE4O66-kPDQNG1ZUIODgFB3B3uSqHD_MLe-Q4nl3XkEasiqZJCCOU9Wve7I39iaHqIASXq3C_dZobrrel5AbgVpE0vi-G4zUfA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="에코">
+            </div>
+            <div class="hero-name">에코 <span class="tag">(버그 픽스 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">복제(궁극기):</span> 복제 시 대상 영웅의 커스텀 밸런스 패치 내역이 정상적으로 적용되도록 수정</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 힐러 섹션 -->
+    <div class="role-title">✚ 지원 (힐러)</div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/r_QVHeGmtQCkdHUS5ba3nmTgH_xTrQdGcF7zOUrqmql3YrXsCk-7lRsY1ZwvDC8AteWOmrynYQYj3nBaYm3TBbn6XMqtPiaXYWFfqOYEj3pLB2VR4E79i4RijOsm2vziFvrGMygt8UhTAUSoE9F4cw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="메르시">
+            </div>
+            <div class="hero-name">메르시 <span class="tag">(리메이크 / 버그 픽스)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">카두세우스 블라스터:</span> <span class="new-effect">[신규 효과]</span> 차징 모드
+                    <ul>
+                        <li>궁극기 미사용 중 공중 체공 시 활성화 (탄창 1발 고정, 발당 피해량 105로 대폭 증가)</li>
+                        <li>강화 탄환 발사 후 3초 쿨타임 적용 (공중 활공 중에는 쿨타임 없이 유지, 착지 시 일반 모드 즉시 복구)</li>
+                    </ul>
+                </li>
+                <li><span class="highlight">발키리(궁극기):</span>
+                    <ul>
+                        <li>사용 중 공중에 있어도 차징 모드 활성화 불가</li>
+                        <li>지속 시간 동안 모든 공격력(블라스터/근접) 20% 증가 (블라스터 발당 20 → 24)</li>
+                        <li>궁극기 종료 시점에 공중에 떠 있다면 즉시 차징 모드로 전환</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/t9U83A5AiV7IdHmjuiPOY0bTfCyGLjsq34MLn-M2y3Up4px6IkxvoEFYycYSgXQOVXBtZO05OLicrV63eb4YxTIb4U9b6B6yIP-Vdnf2l9ROi9XF4UQ_RSQ72zVow9C6RiiNxIqtuyGNbo6hY-_TkA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="키리코">
+            </div>
+            <div class="hero-name">키리코 <span class="tag">(너프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">부적:</span> 초당 치유량 8% 감소</li>
+                <li><span class="highlight">정화의 방울(E):</span> 재사용 대기시간 증가 (15초 → 16초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/hHUp87xzNDHN7l7MoZcji30vk_bICsyRRiWOBE0t8Ufv8iuTMMhiKibTn_DsIZlzmn8SmehPQMec-xSKRbNSBTEAsi5J9T8jH3uyxbemgkXpB7guoF89VSktiDkHFLY2hpRzaCfBPKQ0n9r6n3WU9w.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="아나">
+            </div>
+            <div class="hero-name">아나 <span class="tag">(너프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">생체 수류탄(E):</span> 폭발 피해량 및 치유량 감소 (90 → 75)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/AA3NtNB249X4H-LeGl4qh-qg10634VPAlg5UF3S-VYOV10gKkslIhN9h2WGcRKHaQFXs5zJbR-L-4ZN99N_YTKpJUjRFZDF70_iRpVp8P3rciJLVf9yfsm64K4ZL9fQJn_zvWDGumNOxmoyKeOHnBQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="바티스트">
+            </div>
+            <div class="hero-name">바티스트 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">패시브:</span> 공중에 있는 동안 가하는 피해량 20% 증가</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/HnipR0CCxjaN0G9K9lDrTeFIyDpAvC9Z4wuDsEWWAVzlnpbg1SRNoHPtoUbDWet7Nz5kdEAOeLwOGF1BtdjEgWFZpsYFDcydriYMBUo1rxYTwJsXeAcphHR4fdFO8d95bghIvJ7_PNYbxTVOpQGSHQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="모이라">
+            </div>
+            <div class="hero-name">모이라 <span class="tag">(버프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">소멸(Shift):</span> 사용 시 10m 반경 내 아군에게 이동 속도 20% 버프 부여 (4초 지속, 모이라 본인 제외)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/AYGXYUXG2Jzfo0GTtZwUBGQQ_4tcfstxLthlZMS_8J3SONn4z4duqMtAa7pDLFvQ7uCQAm7TS1e4dK-oN3zZGMk_VeVXIwXpVZ_-j5ejf-iku8N9qXAf2aN14wIZ7qnETCusTUvjCpmfS2S3HAUWsw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="라이프위버">
+            </div>
+            <div class="hero-name">라이프위버 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">구원의 손길(E):</span> 아군을 당길 때 당겨지는 아군 주변 3m 적 1초 기절 추가, 쿨타임 감소 (18초 → 14초)</li>
+                <li><span class="highlight">산들걸음(Space):</span> 재사용 대기시간 감소 (5초 → 4초)</li>
+                <li><span class="highlight">연꽃 단상(Shift):</span> 재사용 대기시간 감소 (12초 → 8초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/AU-ij7PyVRDso0iMN4fdnd6v--y3nIfhQR0hrsi2lIZQHCStWJnBh8vFQfnbJt-iC4MpGUT5itQRFqRgdq5fdOrZ8hmMwMhLBZg55HEvfpKLCdmkzrqNdgB371PF_3QACabUWLzwXr1NwZtF9sPFuA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="일리아리">
+            </div>
+            <div class="hero-name">일리아리 <span class="tag">(버프)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">치유의 태양석(E):</span> 재사용 대기시간 감소 (14초 → 12초)</li>
+                <li><span class="highlight">분출(Shift):</span> 재사용 대기시간 감소 (8초 → 7초)</li>
+                <li><span class="highlight">태양 에너지(우클릭):</span> 최대 수치 133%로 증가 (게이지 전부 소모 시 충전 대기 시간 3초 → 4초)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/ESvZRl9Tr_EjX8kV7jl1-9SraE0O0ReV-WcmsCfyamAi4-Q-EzXslwOUy-md4BQjV2u96qTwbf7d1ZlDT4lIHmgSiDBXjWoGcSh8BtNvN6GeCM9KBB0QuV3D2JO50YIp0PGctOM_rXmg-M7ZXZYvcQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="젠야타">
+            </div>
+            <div class="hero-name">젠야타 <span class="tag">(너프 / 2차)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">스냅 킥(밀어차기):</span> 적중당한 적에게 4초 동안 화상 피해 적용 (초당 5, 총 20 데미지)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/kAO6_I_-T_aIk22AKtDm-BlnzTV0J4W0kUeDokFfU-cO5Gs0_vP83pQtutiMcUaLhp0TQxYFMO2zKXNfiYgkwg9nakjmYcnanRrVJ02SoB0d5OmoZmJoZq2UO3MNO1iA3NoVbQAICUoiq50MH9bPlQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="주노">
+            </div>
+            <div class="hero-name">주노 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">펄서 어뢰(우클릭):</span> 적중 시 4초간 벽 너머로 보이는 해골 징표 생성 및 적 받는 피해량 15% 증가 효과 추가</li>
+                <li><span class="highlight">글라이드 부스트(Shift):</span> 체공 중 아군에게 주는 치유량 30% 증폭</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/8-utmfew0zWr2l48EBm-c5nYdN236FoBX6pJmKVbEwYAJzKqNP-iVIvNd-vxWyPHg9w4L-N-bTrm_zYBgkn-R_MZdiEBBW-2bqB64WDTH87OlxWMGtn4OGw3Jx5BM5mE9uSEq56Hml-JMx_OmF1-Yw.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="루시우">
+            </div>
+            <div class="hero-name">루시우 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">소리 방벽(궁극기):</span> 시전 후 공중에 0.5초 이상 체공하다가 적 머리 위에 찍으며 착지할 경우 해당 적에게 300 피해</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/6lHpS0XxyFsJvbsZl2crFaBHG7LFnzumLvrBOgNHLew0tXvRcZMXlqwXxZ6WAasAVRhL_bi4ToU6JDCrr7fUX8V6HTzt9Pbt_a2u7bKzalne2eBcde39xbjbzBiXoxZZj3V9PO1JSJwvdZjxphHNYQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="미즈키">
+            </div>
+            <div class="hero-name">미즈키 <span class="tag">(버프 / 신규)</span></div>
+        </div>
+        <div class="hero-body">
+            <ul>
+                <li><span class="highlight">종이 인형 분신술(Shift):</span> 재사용 대기시간 감소 (12초 → 11초)</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
