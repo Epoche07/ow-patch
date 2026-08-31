@@ -163,11 +163,16 @@
         </div>
         <div class="hero-body">
             <div class="dev-comment">
-                디몬은 이제 수직 이동은 가능하지만, 지형지물에 밀착해 활용해야만 고지대에 오를 수 있도록 기동성을 합리적으로 조정했습니다. 또한, E 스킬의 피해량을 낮춰 원거리 킬 결정력을 탱커 역할에 맞게 하향했습니다.
+                수직(Z축) 이동이 아예 불가능한 디몬에게 입체적인 3D 기동성을 새롭게 부여했습니다. 이제 고지대를 직접 노릴 수 있게 된 대신, 과도한 기동력과 원거리 견제 플레이을 막기 위해 기동 스킬에 제약을 걸고 원거리 킬 결정력을 하향했습니다.
             </div>
             <ul>
-                <li><span class="highlight">돌진 강타(우클릭+좌클릭):</span> 원하는 방향으로 자유롭게 돌진 가능, 이동속도 증가 (25m/s → 30m/s)</li>
-                <li><span class="highlight">추진기(Shift):</span> 수직 상승 추진력 70% 대폭 감소 (이제 지형지물에 밀착해서 비벼 올라가야 고지대 등반 가능)</li>
+                <li><span class="highlight">돌진 강타(우클릭+좌클릭):</span> <span class="new-effect">[신규 효과]</span> 시선이 향하는 원하는 방향(공중 포함)으로 자유롭게 돌진할 수 있습니다.</li>
+                <li><span class="highlight">추진기(Shift):</span> <span class="new-effect">[신규 효과]</span> 수직 이동(고지대 등반) 가능
+                    <ul>
+                     <li>수직 상승 추진력이 70% 감소된 상태로 적용되어, 지형지물에 밀착해 비벼 올라가야만 고지대에 오를 수 있습니다.</li>
+                     <li>추진기(Shift):  최대 지속 시간이 25% 감소했습니다.</li>
+        </ul>
+    </li>
                 <li><span class="highlight">융합 연발총(E):</span> 발당 피해량 감소 (16 → 13)
                     <ul>
                         <li><span class="new-effect">집중 융합(특전)</span> 선택 시 발당 피해량 감소 (45 → 36.5)</li>
@@ -344,7 +349,7 @@
         </div>
     </div>
 
-    <div class="hero-container">
+<div class="hero-container">
         <div class="hero-header">
             <div class="img-placeholder">
                 <img src="https://i.namu.wiki/i/SEhT30feCtqgOIGcfmFeBxpw7qmjxA_N9Bb8ITOzLLb7VGLTU76VIOZyt7EH9YOOMoAqBEAia8dNEwntBPp-GHc_MvHtWtPgQBm9NRBt09LQGCoXAAW4W45wkgCTg-PYXgAdRHwjEKoMxyseje42og.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="둠피스트">
@@ -353,10 +358,21 @@
         </div>
         <div class="hero-body">
             <div class="dev-comment">
-                '하이 리스크 하이 리턴'이라는 둠피스트의 정체성을 한층 심화했습니다. 시선을 아래로 숙이는 세밀한 조작을 통해 파워 블락을 보다 빨리 충전할 수 있지만, 후방이 노출되었을 때의 위험도 역시 크게 증가하여 플레이어의 숙련도가 더욱 중요해졌습니다.
+                '하이 리스크 하이 리턴'이라는 둠피스트의 정체성을 한층 심화함과 동시에, 진입과 방어 턴의 생존력을 합리적으로 보완했습니다. 파워 블락 중의 기동성을 소폭 상향해 위험 부담을 줄였고, 과거의 '체공 기반' 개시자 패시브를 일부 롤백하여 능동적인 생명력 수급이 가능해졌습니다.
             </div>
             <ul>
-                <li><span class="highlight">파워 블락(E):</span> 사용 중 시선을 아래로 40도 이상 숙일 경우, 받는 피해량 배율 150%로 증가 (정면으로 고개를 들면 즉시 원상 복구)</li>
+                <li><span class="highlight">하위 역할: 개시자(패시브):</span> <span class="new-effect">[추가/조정]</span> 
+                    <ul>
+                        <li>0.5초 이상 공중에 체공할 경우 1초에 걸쳐 50의 생명력을 지속 회복합니다. (재사용 대기시간 5초)</li>
+                        <li>단, 현재 생명력이 최대치일 경우에는 발동하지 않습니다.</li>
+                    </ul>
+                </li>
+                <li><span class="highlight">파워 블락(E):</span>
+                    <ul>
+                        <li><span class="new-effect">[신규 효과]</span> 사용 중 시선을 아래로 40도 이상 숙일 경우, 받는 피해량 배율이 150%로 증가합니다. (정면으로 고개를 들면 즉시 원상 복구)</li>
+                        <li>이동 속도 감소 페널티가 완화되었습니다. (-35% → -20%)</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
