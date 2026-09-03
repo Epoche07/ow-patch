@@ -345,31 +345,47 @@
     </div>
 
 
-    <!-- 정커퀸 -->
-    <div class="hero-container">
-        <div class="hero-header">
-            <div class="img-placeholder">
-                <img src="https://i.namu.wiki/i/sT0HWtXjEH1PfKkBC9dDQwYIybCsyD3ay0zvI-HFZca1gnX83IPExmaEPuAM3Oqpf-C2L8pbR34bd_Gpg5M7z628iL7qyujaWKubb2g1Uwd_WGTGa5l9MlbMouQgWRwNm1LSLnUR6oA9kTI_O_cqWA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="정커퀸">
-            </div>
-            <div class="hero-name">정커퀸 <span class="tag">(너프 / 2차)</span></div>
+<!-- 정커퀸 -->
+<div class="hero-container">
+    <div class="hero-header">
+        <div class="img-placeholder">
+            <img src="https://i.namu.wiki/i/sT0HWtXjEH1PfKkBC9dDQwYIybCsyD3ay0zvI-HFZca1gnX83IPExmaEPuAM3Oqpf-C2L8pbR34bd_Gpg5M7z628iL7qyujaWKubb2g1Uwd_WGTGa5l9MlbMouQgWRwNm1LSLnUR6oA9kTI_O_cqWA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="정커퀸">
         </div>
-        <div class="hero-body">
-            <div class="dev-comment">
-                정커퀸이 적진 깊숙이 파고들었을 때 받는 폭발적인 피해를 감당하기 어렵다는 점을 보완했습니다. 지휘의 외침 사용 시 짧은 무적 판정을 부여해 치명적인 공격을 흘려보내게 하고, 신규 패시브로 난전 지속력을 대폭 강화했습니다.
-            </div>
-            <ul>
-                <li><span class="highlight">지휘의 외침(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 시 정커퀸에게 0.8초 동안 순간 무적 부여</li>
-                <li><span class="highlight">아드레날린 촉진(패시브):</span> <span class="new-effect">[신규 기능]</span> 과다 치유 메커니즘 추가
-                    <ul>
-                        <li>체력이 최대치 미만일 때는 기존과 동일하게 부상(출혈) 피해에 비례하여 체력을 회복합니다.</li>
-                        <li>체력이 가득 찬 상태에서는 적중하는 스킬의 '명중(직격) 피해량'의 75%가 임시 보호막으로 즉시 전환됩니다.</li>
-                        <li>보호막 지속 시간: 일반 기술 및 근접 공격(3초), 궁극기(4.5초) 유지 후 소멸</li>
-                        <li>광역 스킬(도륙, 살육)로 다수 적중 시, 타격한 인원수에 비례하여 보호막 중첩 적용</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <div class="hero-name">정커퀸 <span class="tag">(조정 / 2차)</span></div>
     </div>
+
+    <div class="hero-body">
+        <div class="dev-comment">
+            정커퀸이 난전에서 보다 적극적으로 전선을 유지할 수 있도록 지휘의 외침의 유틸리티를 강화했습니다.
+            또한 부상 효과를 통해 발생하는 회복량을 활용하는 새로운 과다 치유 시스템을 추가하여,
+            공격적으로 교전할수록 추가 생존력을 확보할 수 있도록 했습니다.
+        </div>
+
+        <ul>
+            <li>
+                <span class="highlight">지휘의 외침(Shift):</span>
+                <span class="new-effect">[신규 효과]</span>
+                <ul>
+                    <li>사용 시 정커퀸이 <strong>4초 동안 넉백 면역</strong>을 얻습니다.</li>
+                    <li>사용 즉시 <strong>도륙(E)의 남은 재사용 대기시간이 2초 감소</strong>합니다.</li>
+                </ul>
+            </li>
+
+            <li>
+                <span class="highlight">아드레날린 촉진(패시브):</span>
+                <span class="new-effect">[신규 기능]</span> 과다 치유 메커니즘 추가
+                <ul>
+                    <li>상처를 유발하는 공격의 <strong>직격 피해량 75%</strong>를 기준으로 과다 치유 보호막을 계산합니다.</li>
+                    <li>체력이 부족한 경우에는 필요한 회복량만큼 먼저 사용되며, <strong>체력을 모두 회복하고 남은 초과 회복량만 보호막으로 전환</strong>됩니다.</li>
+                    <li>체력이 가득 찬 상태에서는 계산된 과다 치유량이 그대로 임시 보호막으로 전환됩니다.</li>
+                    <li>도륙(E)은 실제로 발생한 자가 회복량을 기준으로 초과분을 계산합니다.</li>
+                    <li>보호막 지속 시간: <strong>일반 기술 및 근접 공격 3초</strong>, <strong>살육(Q) 4.5초</strong></li>
+                    <li>도륙(E)이나 살육(Q)처럼 여러 적을 연속으로 적중시키는 경우, 짧은 시간 동안 발생한 피해량이 합산되어 보호막이 계산됩니다.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
 
     <!-- 둠피스트 -->
     <div class="hero-container">
