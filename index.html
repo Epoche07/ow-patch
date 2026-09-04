@@ -533,7 +533,7 @@
             파워 슬라이드로 공격 각을 만든 직후의 레일건 한 발에 더 큰 보상을 제공하여, 소전 특유의 묵직한 사격감을 강화했습니다.
         </div>
         <ul>
-            <li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 후 4초 동안 다음 레일건 보조 발사 1회의 치명타 배율 증가 (150% → 200%)
+            <li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 시 4초 동안 다음 레일건 보조 발사 1회의 치명타 배율 증가 (150% → 200%)
                 <ul>
                     <li><span class="highlight">이중 추진기(특전)</span> 선택 시 두 번째 파워 슬라이드를 사용해도 강화 효과는 중첩되지 않으며, 지속시간만 4초로 갱신</li>
                 </ul>
@@ -647,20 +647,45 @@
         </div>
     </div>
 
-    <!-- 시온 -->
+       <!-- 시온 -->
     <div class="hero-container">
         <div class="hero-header">
             <div class="img-placeholder">
                 <img src="https://i.namu.wiki/i/wYbCKFBHsg84SYHIs9PXF1TzgqCAORaSHSRmstvTmC0Xwvwhti3FzzniLoIGF0UySveXr41uRuldLGjDaESIZcjoeaB1h_89l-FBFlskWvajTQD3K2VvRuNEje_Unt9kyKu-1vho6l9iZi06jP5NpA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="시온">
             </div>
-            <div class="hero-name">시온 <span class="tag">(버프 / 신규)</span></div>
+            <div class="hero-name">시온 <span class="tag">(버프 / 2차)</span></div>
         </div>
         <div class="hero-body">
             <div class="dev-comment">
-                스킬 콤보를 통한 확실한 킬 캐치에 대한 보상으로 쿨타임 초기화를 부여하여, 스타일리시하고 연속적인 교전이 가능해집니다.
+                스킬 콤보를 통한 확실한 킬 캐치에 대한 보상으로 재사용 대기시간 초기화를 부여하여, 스타일리시하고 연속적인 교전이 가능하도록 했습니다. 추가로 끊임없이 전장을 누비는 시온의 기동형 플레이스타일에 보상을 제공하는 신규 시스템 '모멘텀'을 도입했습니다. 충분한 거리를 이동하면 다음 피하기가 '해방'으로 강화되어 순간적인 기동력과 생존력을 확보할 수 있습니다.
             </div>
             <ul>
-                <li><span class="highlight">패시브:</span> <span class="new-effect">[신규 기능]</span> 우클릭 또는 E 스킬로 적 처치 시 E 스킬 재사용 대기시간 즉시 초기화</li>
+                <li>
+                    <span class="highlight">패시브:</span>
+                    <span class="new-effect">[신규 기능]</span>
+                    우클릭 또는 E 스킬로 적 처치 시 E 스킬 재사용 대기시간 즉시 초기화
+                </li>
+
+                <li>
+                    <span class="highlight">패시브:</span>
+                    <span class="new-effect">[신규 기능]</span> 모멘텀
+                    <ul>
+                        <li>전장에서 이동한 거리가 누적되며, 누적 이동 거리가 <strong>100m</strong>에 도달하면 <strong>해방</strong>이 준비됩니다.</li>
+                        <li>현재 누적 이동 거리는 화면 좌측 상단 HUD에 <strong>'모멘텀: 이동 거리 / 100m'</strong>로 표시되며, 충전 완료 시 <strong>'모멘텀: [해방 준비]'</strong>로 변경됩니다.</li>
+                        <li>사망했거나 부활 지점 안에 있는 동안에는 이동 거리가 누적되지 않습니다.</li>
+                        <li>피하기 사용 도중 모멘텀이 100m에 도달한 경우, 현재 사용 중인 피하기에는 해방이 적용되지 않으며 피하기가 종료된 후 해방 준비 상태로 전환됩니다.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="highlight">피하기:</span>
+                    <span class="new-effect">[신규 효과]</span> 해방
+                    <ul>
+                        <li>해방 준비 상태에서 피하기를 사용하면 모멘텀을 모두 소모하고 발동합니다.</li>
+                        <li>발동 후 <strong>3초 동안 이동 속도가 40% 증가</strong>합니다.</li>
+                        <li>발동 즉시 <strong>0.5초 동안 Phased Out 상태</strong>가 됩니다. (리퍼의 망령화나 모이라의 소멸처럼 잠시 공격 판정에서 벗어나 피해를 받지 않는 상태)</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>
@@ -1124,6 +1149,32 @@
         </div>
     </div>
 
+       <!-- 우양 -->
+    <div class="hero-container">
+        <div class="hero-header">
+            <div class="img-placeholder">
+                <img src="https://i.namu.wiki/i/iuRcVR-_iHTr2kH5V8tVx2rrm7TczEimuGjl9HYDtvJ_rGGtmOHwxAowvUj4nc5FgkBsytSSCDR1BuLKUzsCkjEegaeoIX-cH7_7fkg3MFD_ie3Vm1-Sr5qMyyH-im17cdyBsAtcK4wLJpzQp8SoBA.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="우양">
+            </div>
+            <div class="hero-name">우양 <span class="tag">(버프 / 신규 기능)</span></div>
+        </div>
+        <div class="hero-body">
+            <div class="dev-comment">
+                지속적으로 피해를 누적하며 교전할수록 강력한 근접전 변수를 만들어낼 수 있도록 신규 기능 '쇄도'을 추가했습니다. 충분한 피해를 가한 뒤 근접 공격에 성공하면 적을 강하게 밀쳐내고 최대 생명력에 비례한 추가 피해를 가해, 공격적인 포지셔닝과 킬 캐치에 확실한 보상을 제공합니다.
+            </div>
+            <ul>
+                <li><span class="highlight">패시브:</span> <span class="new-effect">[신규 기능]</span> 쇄도
+                    <ul>
+                        <li>적에게 가한 피해량을 누적하며, 누적 피해량이 <strong>600</strong>에 도달하면 쇄도이 준비됩니다.</li>
+                        <li>현재 누적 피해량은 화면 좌측 상단 HUD에 <strong>'쇄도: 피해량 / 600'</strong>으로 표시되며, 충전 완료 시 <strong>'쇄도: [준비 완료]'</strong>로 변경됩니다.</li>
+                        <li>준비 완료 상태에서 적에게 <strong>근접 공격(V)</strong>을 적중시키면 모든 충전량을 소모하고 해당 적을 강하게 밀쳐냅니다.</li>
+                        <li>근접 공격 적중 후 <strong>0.8초 뒤</strong> 해당 적에게 <strong>대상 최대 생명력의 15%</strong>만큼 추가 피해를 입힙니다.</li>
+                        <li>쇄도으로 발생한 추가 피해는 다음 쇄도의 피해량 충전에 포함되지 않습니다.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
     <!-- 미즈키 -->
     <div class="hero-container">
         <div class="hero-header">
