@@ -284,7 +284,7 @@
             <ul>
                 <li><span class="highlight">방벽 생성기(E):</span> 재사용 대기시간 감소 (12초 → 11초)</li>
                 <li><span class="highlight">원시의 분노(궁극기):</span> 사용 중 가하는 모든 피해량 10% 증가</li>
-                <li><span class="highlight">테슬라 캐논(보조 발사):</span> <span class="new-effect">[신규 효과]</span> 고도 2m 이상 공중에서 적중 시 피해량이 50% 증가 (재사용 대기시간 5초, 좌측 상단 쿨타임 HUD 추가)</li>
+                <li><span class="highlight">테슬라 캐논(보조 발사):</span> <span class="new-effect">[신규 효과]</span> 고도 2m 이상 공중에서 적중 시 적 영웅에게 주는 피해량이 50% 증가 (재사용 대기시간 5초, 좌측 상단 쿨타임 HUD 추가)</li>
                 <li><span class="highlight">근접 공격(V):</span> <span class="new-effect">[신규 효과]</span> 적중 시 테슬라 캐논 탄창 즉시 10발 회복 (최대 탄창 초과 불가)</li>
             </ul>
         </div>
@@ -548,11 +548,12 @@
             파워 슬라이드로 공격 각을 만든 직후의 레일건 한 발에 더 큰 보상을 제공하여, 소전 특유의 묵직한 사격감을 강화했습니다.
         </div>
         <ul>
-            <li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 시 4초 동안 다음 레일건 보조 발사 1회의 치명타 배율 증가 (150% → 200%)
-                <ul>
-                    <li><span class="highlight">이중 추진기(특전)</span> 선택 시 두 번째 파워 슬라이드를 사용해도 강화 효과는 중첩되지 않으며, 지속시간만 4초로 갱신</li>
-                </ul>
-                <li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 중 적과 근접 충돌 시 5의 피해를 주고 적을 살짝 공중으로 띄움 (슬라이드 1회당 1회 발동)</li>
+           <li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 시 4초 동안 다음 레일건 보조 발사 1회의 치명타 배율 증가 (150% → 200%)
+    <ul>
+        <li><span class="highlight">이중 추진기(특전)</span> 선택 시 두 번째 파워 슬라이드를 사용해도 강화 효과는 중첩되지 않으며, 지속시간만 4초로 갱신</li>
+    </ul>
+</li>
+<li><span class="highlight">파워 슬라이드(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 중 적과 근접 충돌 시 5의 피해를 주고 적을 살짝 공중으로 띄움 (슬라이드 1회당 1회 발동)</li>
             </li>
         </ul>
     </div>
@@ -973,7 +974,7 @@
             </div>
             <ul>
                 <li><span class="highlight">기본 능력치:</span> 생명력 200 → 175, 방어력 75 → 100으로 변경</li>
-                <li><span class="highlight">기본 공격(좌클릭):</span> <span class="new-effect">[신규 효과]</span> 대검 끝거리(4.5m ~ 6.9m) 적중 시 가하는 피해량 30% 증가</li>
+                <li><span class="highlight">기본 공격(좌클릭):</span> <span class="new-effect">[신규 효과]</span> 대검 끝거리(4.5m ~ 6.9m) 적중 시 적에게 가하는 피해량 30% 증가</li>
                 <li><span class="highlight">패시브:</span> <span class="new-effect">[신규 기능]</span> 적에게 입힌 모든 피해량의 10%만큼 본인 생명력 즉시 회복 (흡혈)</li>
             </ul>
         </div>
@@ -1045,7 +1046,7 @@
             </div>
             <ul>
                 <li><span class="highlight">소멸(Shift):</span> <span class="new-effect">[신규 효과]</span> 사용 시 10m 반경 내 아군에게 이동 속도 20% 버프 부여 (4초 지속, 모이라 본인 제외)</li>
-                <li><span class="new-effect">[신규 기능]</span> <span class="highlight">생체 맹독 폭발(R):</span> 사용 시 12m 반경 내 아군 150 회복(본인 제외) 및 적 40 즉발 피해와 3초간 20 지속 피해 적용. 모이라 본인은 150의 자해 피해를 입음 (재사용 대기시간 14초, 소멸 중 사용 불가)</li>
+                <li><span class="new-effect">[신규 기능]</span> <span class="highlight">생체 맹독 폭발(R):</span> 사용 시 12m 반경 내 아군 150 회복(본인 제외) 및 적 40 즉발 피해와 3초간 초당 20의 지속 피해(총 60) 적용. 모이라 본인은 150의 자해 피해를 입음 (재사용 대기시간 14초, 소멸 중 사용 불가)</li>
             </ul>
         </div>
     </div>
@@ -1245,10 +1246,10 @@
 
 
     <div class="dev-comment">
-    <strong>※ ‘영웅 대상 피해량’ 표기에 대하여</strong><br>
+    <strong>※ ‘영웅 대상’ 표기에 대하여</strong><br>
     일부 피해 증가 효과는 워크샵의 플레이어 피해 이벤트를 통해 구현됩니다.
     이 때문에 추가 피해는 적 영웅에게만 적용되며, 방벽 및 비플레이어 오브젝트에는 기존 피해량이 적용됩니다.
-    해당 차이를 명확히 전달하기 위해 관련 효과를 ‘영웅 대상 피해량’으로 표기했습니다.
+    해당 차이를 명확히 전달하기 위해 관련 효과의 적용 대상을 ‘영웅 대상’ 또는 ‘적 영웅’으로 별도 표기했습니다.
 </div>
 
 </body>
