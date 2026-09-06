@@ -491,8 +491,8 @@
             </div>
             <ul>
                 <li><span class="highlight">용검(궁극기):</span> 공격력 증가 (110 → 125)</li>
-                <li><span class="highlight">수리검:</span> 발당 공격력 증가 (27 → 29)</li>
-                <li><span class="highlight">근접 공격(V):</span> 피해량 증가 (40 → 50)</li>
+                <li><span class="highlight">수리검:</span> 영웅 대상 피해량 증가 (27 → 29)</li>
+                <li><span class="highlight">근접 공격(V):</span> 영웅 대상 피해량 증가 (40 → 50)</li>
             </ul>
         </div>
     </div>
@@ -529,7 +529,7 @@
                 정크랫의 시그니처였던 평타-지뢰 암살 콤보를 부활시켰습니다. 또한 죽이는 타이어가 목표에 도달하기도 전에 너무 쉽게 파괴되던 현상을 완화하여 궁극기의 가치를 높였습니다.
             </div>
             <ul>
-                <li><span class="highlight">충격 지뢰(Shift):</span> 공격력 10 증가</li>
+                <li><span class="highlight">충격 지뢰(Shift):</span> 영웅 대상 피해량 10 증가</li>
                 <li><span class="highlight">죽이는 타이어(궁극기):</span> 타이어가 받는 피해 33% 감소, 궁극기 사용 중 정크랫이 받는 피해 33% 감소</li>
             </ul>
         </div>
@@ -819,10 +819,10 @@
         </div>
         <div class="hero-body">
             <div class="dev-comment">
-                고드름의 치명타 피해량을 상향하여 정교한 에임에 대한 확실한 보상을 부여했습니다. 아울러 바닥을 얼려 기동성을 대폭 끌어올릴 수 있는 기믹과, 수직적인 진입 시 치명적인 변수를 창출할 수 있는 기믹을 추가했습니다.
+                고드름의 공격력을 소폭 상향하여 조건부적 원콤이 가능하도록 했습니다. 또한 바닥을 얼려 기동성을 대폭 끌어올릴 수 있는 기믹과, 수직적인 진입 시 치명적인 변수를 창출할 수 있는 기믹을 추가했습니다.
             </div>
             <ul>
-                <li><span class="highlight">고드름(우클릭):</span> 공격력 5 증가 (트레이서 헤드샷 원콤 가능)</li>
+                <li><span class="highlight">고드름(우클릭):</span> 영웅 대상 피해량 5 증가 (트레이서 헤드샷 원콤 가능)</li>
                 <li><span class="highlight">냉각총(좌클릭):</span> <span class="new-effect">[신규 기능]</span> 아이스 스케이팅 (바닥에 쏘며 이동 시 이동 속도 40% 대폭 증가, 발사 중단 시 해제)</li>
                 <li><span class="highlight">급속 빙결(Shift):</span> <span class="new-effect">[신규 기능]</span> 공중 빙결 찍기
                     <ul>
@@ -947,7 +947,7 @@
                 캐서디의 가장 기본적인 강점인 피스키퍼의 위력을 높여, 정면 교전에서 보다 확실한 화력과 킬 결정력을 발휘할 수 있도록 했습니다. 결정타 성공 시 구르기가 즉시 초기화되어 교전을 연속적으로 이어갈 수 있으며, 황야의 무법자 사용 중 후반부 기동력도 크게 향상되어 보다 능동적으로 치명적인 각을 만들어낼 수 있습니다.
             </div>
             <ul>
-                <li><span class="highlight">피스키퍼(좌클릭):</span> 피해량 증가 (70 → 75, 치명타 피해 140 → 150)</li>
+                <li><span class="highlight">피스키퍼(좌클릭):</span> 영웅 대상 피해량 증가 (70 → 75, 치명타 피해 140 → 150)</li>
                 <li><span class="highlight">패시브:</span> <span class="new-effect">[신규 기능]</span> 결정타(막타) 성공 시 구르기 쿨타임 즉시 초기화</li>
                 <li><span class="highlight">황야의 무법자(궁극기):</span> 자체 이동 속도 감소 효과 변경
                     <ul>
@@ -997,7 +997,7 @@
             <ul>
                 <li><span class="highlight">카두세우스 블라스터:</span> <span class="new-effect">[신규 기능]</span> 차징 모드
                     <ul>
-                        <li>궁극기 미사용 중 공중 체공 시 활성화 (탄창 1발 고정, 발당 피해량 105로 대폭 증가)</li>
+                        <li>궁극기 미사용 중 공중 체공 시 활성화 (탄창 1발 고정, 영웅 대상 피해량 105로 대폭 증가)</li>
                         <li>강화 탄환 발사 후 2초 쿨타임 적용 (단, 활공 중에는 해당 쿨타임을 무시하며 재장전 후 계속 강화 탄환을 발사 가능)</li>
                     </ul>
                 </li>
@@ -1240,6 +1240,16 @@
             </ul>
         </div>
     </div>
+
+
+
+
+    <div class="dev-comment">
+    <strong>※ ‘영웅 대상 피해량’ 표기에 대하여</strong><br>
+    일부 피해 증가 효과는 워크샵의 플레이어 피해 이벤트를 통해 구현됩니다.
+    이 때문에 추가 피해는 적 영웅에게만 적용되며, 방벽 및 비플레이어 오브젝트에는 기존 피해량이 적용됩니다.
+    해당 차이를 명확히 전달하기 위해 관련 효과를 ‘영웅 대상 피해량’으로 표기했습니다.
+</div>
 
 </body>
 </html>
