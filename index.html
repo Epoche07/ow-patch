@@ -629,7 +629,7 @@
                 정크랫의 시그니처였던 평타-지뢰 암살 콤보를 부활시켰습니다. 또한 죽이는 타이어가 목표에 도달하기도 전에 너무 쉽게 파괴되던 현상을 완화하여 궁극기의 가치를 높였습니다.
             </div>
             <ul>
-                <li><span class="highlight">충격 지뢰(Shift):</span> 영웅 대상 피해량 10 증가</li>
+                <li><span class="highlight">충격 지뢰(Shift):</span> 충격 지뢰를 거의 직격으로 맞췄을 때, 영웅 대상 추가 피해 10 부여 </li>
                 <li><span class="highlight">죽이는 타이어(궁극기):</span> 타이어가 받는 피해 33% 감소, 궁극기 사용 중 정크랫이 받는 피해 33% 감소</li>
             </ul>
         </div>
@@ -994,7 +994,7 @@
         <div class="hero-name">벤처 <span class="tag">(버프 / 신규 기능)</span></div>
     </div>
 
-```
+
 <div class="hero-body">
     <div class="dev-comment">
         처치 기여 시 이동기의 재사용 대기시간이 감소하는 효과를 추가하여, 벤처 특유의 적진을 파고드는 기동성을 한층 날카롭게 다듬었습니다.
@@ -1016,25 +1016,29 @@
             처치 기여 시 잠복과 드릴 돌진의 쿨타임 1초 단축
         </li>
 
-        <li>
-            <span class="highlight">유물 탐사:</span>
-            <span class="new-effect">[신규 기능]</span>
-            처치 기여 시 유물 조각 1개 획득
-            <ul>
-                <li>유물 조각 3개 수집 시 무작위 유물 발견</li>
-                <li>유물을 보유하지 않은 상태에서는 발견한 유물을 즉시 획득</li>
-                <li>이미 유물을 보유 중이라면 현재 유물을 제외한 다른 유물이 교체 후보로 등장</li>
-                <li>교체 후보가 있을 때 지상에서 <strong>Ctrl + 상호작용</strong>을 입력하면 새로운 유물로 교체</li>
-            </ul>
-        </li>
+       <li>
+    <span class="highlight">유물 탐사:</span>
+    <span class="new-effect">[신규 기능]</span>
+    처치 기여 시 유물 조각 1개 획득
+    <ul>
+        <li>유물 조각 3개 수집 시 무작위 유물 1개 발견</li>
+        <li>유물은 한 번에 1개만 보유할 수 있으며, 현재 보유 중인 유물의 효과만 적용</li>
+        <li>유물을 보유하지 않은 상태에서는 발견한 유물을 즉시 획득</li>
+        <li>이미 유물을 보유 중이라면 현재 유물을 제외한 다른 유물이 교체 후보로 등장</li>
+        <li>교체 후보가 있을 때 지상에서 <strong>Ctrl + 상호작용</strong>을 입력하면 새로운 유물로 교체</li>
+    </ul>
+</li>
 
+<li>
+    <span class="highlight">획득 가능한 유물:</span>
+    <ul>
         <li>
-            <span class="highlight">화산석:</span>
+            <strong>화산석</strong><br>
             드릴 돌진 적중 시 대상에게 3초 동안 초당 8의 화상 피해
         </li>
 
         <li>
-            <span class="highlight">흑요석 드릴날:</span>
+            <strong>흑요석 드릴날</strong><br>
             근접 공격 적중 시 15의 추가 피해
             <ul>
                 <li>같은 대상에게는 0.9초에 한 번만 적용</li>
@@ -1042,7 +1046,7 @@
         </li>
 
         <li>
-            <span class="highlight">심층 화석:</span>
+            <strong>심층 화석</strong><br>
             잠복 중 15m 이상 이동하면 잠복 공격 적중 시 20의 추가 피해
             <ul>
                 <li>15m 이상 이동한 상태로 잠복을 종료하면 3초 동안 이동 속도 20% 증가</li>
@@ -1050,7 +1054,7 @@
         </li>
 
         <li>
-            <span class="highlight">생명 화석:</span>
+            <strong>생명 화석</strong><br>
             잠복 중 0.25초마다 생명력 5 회복
             <ul>
                 <li>초당 최대 20의 생명력 회복</li>
@@ -1058,24 +1062,25 @@
         </li>
 
         <li>
-            <span class="highlight">벽옥:</span>
-            공중에서 벽 가까이에서 벽을 정면으로 본 상태로 Ctrl을 누르면 해당 위치의 벽에 매달리기 가능. 
+            <strong>벽옥</strong><br>
+            공중에서 벽 가까이에서 벽을 정면으로 본 상태로 Ctrl을 누르면 해당 위치의 벽에 매달리기 가능
             <ul>
                 <li>Ctrl 해제, 공격, 근접 공격, 능력 또는 궁극기 사용 시 벽 매달리기 종료</li>
             </ul>
         </li>
 
         <li>
-            <span class="highlight">중력석:</span>
+            <strong>중력석</strong><br>
             잠복 또는 드릴 돌진 사용 후 고도 2m 이상 공중에 있을 때 Ctrl을 입력하면 빠르게 지면으로 강하
             <ul>
                 <li>강하 후 지면에 착지하면 반경 4m 내 적에게 40의 피해</li>
             </ul>
         </li>
     </ul>
-</div>
-```
+</li>
 
+    </ul>
+</div>
 </div>
 
 
@@ -1210,7 +1215,6 @@
                     <ul>
                         <li><span class="new-effect">[신규 효과]</span> 사용 중 공중에 있어도 차징 모드 활성화 불가</li>
                         <li>지속 시간 동안 모든 공격력(블라스터/근접) 20% 증가 (블라스터 발당 20 → 24)</li>
-                        <li><span class="new-effect">[신규 효과]</span> 궁극기 종료 시점에 공중에 떠 있다면 즉시 차징 모드로 전환</li>
                     </ul>
                 </li>
             </ul>
@@ -1403,7 +1407,7 @@
             </div>
             <ul>
                 <li><span class="highlight">펄사 어뢰(우클릭):</span> <span class="new-effect">[신규 효과]</span> 적중 시 3초간 벽 너머로 보이는 해골 징표 생성 및 적 받는 피해량 15% 증가 효과 추가</li>
-                <li><span class="highlight">글라이드 부스트(Shift):</span> <span class="new-effect">[신규 효과]</span> 체공 중 아군에게 주는 치유량 30% 증폭</li>
+                <li><span class="highlight">글라이드 부스트(Shift):</span> <span class="new-effect">[신규 효과]</span> 글라이드 부스트 활성화 중 아군에게 주는 치유량 30% 증폭</li>
             </ul>
         </div>
     </div>
