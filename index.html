@@ -474,7 +474,7 @@
     </div>
 </div>
 
-    <!-- 로드호그 -->
+  <!-- 로드호그 -->
 <div class="hero-container">
     <div class="hero-header">
         <div class="img-placeholder">
@@ -482,36 +482,57 @@
                  style="width: 100%; height: 100%; object-fit: cover;"
                  alt="로드호그">
         </div>
-        <div class="hero-name">로드호그 <span class="tag">(버프 / 3차)</span></div>
+        <div class="hero-name">로드호그 <span class="tag">(버프 / 4차)</span></div>
     </div>
 
     <div class="hero-body">
         <div class="dev-comment">
-           숨 돌리기의 기동성과 넉백 저항을 강화하고, 충분히 회복한 뒤 다음 갈고리에 강력한 대형 대상 제압 효과를 부여하는 신규 패시브 '철거'를 추가했습니다.
+            최근 고철총과 사슬 갈고리의 변화로 약해진 근거리 결정력을 일부 보완하는 한편,
+            과거의 중거리 견제 수단이었던 구형 고철탄을 선택적으로 사용할 수 있도록 했습니다.
+            또한 숨 돌리기의 기동성과 넉백 저항을 강화하고, 충분히 회복한 뒤 다음 갈고리로
+            대형 대상을 강하게 압박할 수 있는 패시브 '철거'를 추가했습니다.
         </div>
 
         <ul>
             <li>
-                <span class="highlight">사슬 갈고리:</span>
-                재사용 대기시간 감소 (7초 → 6초)
+                <span class="highlight">고철총:</span>
+                <ul>
+                    <li>기본 발사의 치명타 피해 배율 증가 (1.5배 → 2배)</li>
+                    <li>
+                        사슬 갈고리로 적을 끌어온 직후 0.65초 동안
+                        기본 발사 피해 20% 증가
+                    </li>
+                    <li>
+                        <span class="new-effect">[신규 효과]</span>
+                        상호작용 + 근접 공격으로 보조 사격 모드 전환 가능
+                    </li>
+                    <li>
+                        기본 보조 사격은 <strong>쓰레기 압축기</strong>를 사용하며,
+                        전환 시 <strong>구형 고철탄</strong> 사용
+                    </li>
+                    <li>
+                        구형 고철탄은 약 9m 이동 후 산탄으로 분열하며,
+                        분열 이후 거리에 따라 피해량 감소
+                    </li>
+                </ul>
             </li>
 
             <li>
-                <span class="highlight">숨 돌리기(E):</span>
+                <span class="highlight">숨 돌리기:</span>
                 <span class="new-effect">[신규 효과]</span>
                 사용 중 이동 속도 20% 증가 및 받는 넉백 50% 감소
             </li>
 
             <li>
-    <span class="highlight">철거:</span>
-    <span class="new-effect">[신규 패시브]</span>
-    <ul>
-        <li>숨 돌리기로 실제 회복량 400 누적: 다음 사슬 갈고리 강화</li>
-        <li>갈고리 사용 시 즉시 충전 소모 / 빗나가도 반환되지 않음</li>
-        <li>최대 생명력 600 이상 대상: 최대 생명력의 20% 추가 피해</li>
-        <li>최대 생명력 600 이상 돌격 영웅: 주요 이동기 남은 재사용 대기시간 +1초</li>
-    </ul>
-</li>
+                <span class="highlight">철거:</span>
+                <span class="new-effect">[신규 패시브]</span>
+                <ul>
+                    <li>숨 돌리기로 실제 회복량 400 누적 시 다음 사슬 갈고리 강화</li>
+                    <li>강화된 사슬 갈고리 사용 시 즉시 충전 소모 / 빗나가도 반환되지 않음</li>
+                    <li>최대 생명력 600 이상 대상: 최대 생명력의 20% 추가 피해</li>
+                    <li>최대 생명력 600 이상 돌격 영웅: 주요 이동기의 남은 재사용 대기시간 +1초</li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
@@ -533,7 +554,6 @@
                 <li><span class="highlight">수정 폭발(E):</span> <span class="new-effect">[신규 효과]</span> 스킬에 적중당한 적은 1초간 이동 속도가 20% 감소</li>
                 <li><span class="highlight">방벽 배열:</span> 재사용 대기시간 감소 (14초 → 13초)</li>
                 <li><span class="highlight">소닉 리펄서:</span> 재사용 대기시간 감소 (7초 → 6초) 및 밀쳐내기 수준 20% 증가</li>
-                <li><span class="highlight">지속 능력 - 재조립:</span> 보호막 회복량 증가 (가한 피해의 75% → 100%)</li>
             </ul>
         </div>
     </div>
@@ -623,7 +643,7 @@
                 다소 부족했던 겐지의 기본 체급을 상향 조정했습니다. 특히 용검이 발동되었을 때 상대에게 충분한 압박감을 주지 못하던 문제를 해결하여, 이름에 걸맞은 치명적인 위력을 발휘할 수 있게 개선했습니다.
             </div>
             <ul>
-                <li><span class="highlight">용검(궁극기):</span> 공격력 증가 (110 → 125)</li>
+                <li><span class="highlight">용검(궁극기):</span> 공격력 증가 (100 → 115)</li>
                 <li><span class="highlight">수리검:</span> 영웅 대상 피해량 증가 (27 → 29)</li>
             </ul>
         </div>
@@ -834,7 +854,6 @@
             <li>
                 <span class="highlight">사이버 파편 수류탄(E):</span>
                 <ul>
-                    <li>재사용 대기시간 감소 (10초 → 9초)</li>
                     <li><span class="new-effect">[신규 효과]</span> 방어구의 피해 감소 효과 무시</li>
                 </ul>
             </li>
