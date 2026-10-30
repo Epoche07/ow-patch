@@ -162,11 +162,12 @@
         </div>
     </div>
     
+
 <!-- 마우가 -->
 <div class="hero-container">
     <div class="hero-header">
         <div class="img-placeholder">
-            <img src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/937cbae13f50502b4191c09b7c178ef60d2eadddcdda5bc4268c1541216b8722.png" style="width: 100%; height: 100%; object-fit: cover;" alt="마우가">
+            <img src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/937cbae13f50502b4191c09b7c178ef60d2eadddc5bc4268c1541216b8722.png" style="width: 100%; height: 100%; object-fit: cover;" alt="마우가">
         </div>
         <div class="hero-name">마우가 <span class="tag">(버프 / 조정 / 신규)</span></div>
     </div>
@@ -174,7 +175,8 @@
     <div class="hero-body">
         <div class="dev-comment">
             마우가의 기본 내구력과 기관포 발사 중 기동성을 보완하고, 적극적으로 적을 추격할수록 돌파를 더 자주 활용할 수 있도록 했습니다.
-            또한 두 기관포를 지속적으로 함께 사용하는 플레이에 화력 보상을 추가하고, 신규 기능 '돌파 도약'을 통해 돌파에 수직 기동 선택지를 부여했습니다.
+            또한 두 기관포를 지속적으로 함께 사용하는 플레이에 화력 보상을 추가하고, 거리별 피해 감소를 제거하여 중거리에서도 적을 위협할 수 있도록 개선했습니다.
+            신규 기능 '돌파 도약'을 통해 충분한 피해를 누적한 마우가에게 수직 기동 선택지를 부여했습니다.
         </div>
 
         <ul>
@@ -188,6 +190,16 @@
                 <ul>
                     <li>한쪽 기관포 발사 중 이동 속도 감소: 15% → 0%</li>
                     <li>두 기관포 동시 발사 중 이동 속도 감소: 30% → 20%</li>
+                    <li>
+                        <span class="new-effect">[신규 효과]</span>
+                        두 기관포 동시 발사 시 적 영웅에게 가하는 피해의 거리별 감소 효과 제거
+                        <ul>
+                            <li>10m 초과 거리에서 발생하는 피해 감소분을 추가 피해로 보정</li>
+                            <li>20m 이상의 거리에서도 적중한 탄환의 기본 피해량 유지</li>
+                            <li>한쪽 기관포만 발사할 경우 기존 거리별 피해 감소 유지</li>
+                            <li>기관포의 탄퍼짐은 변경되지 않음</li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
@@ -232,6 +244,7 @@
         </ul>
     </div>
 </div>
+
 
     <!-- D.Va -->
     <div class="hero-container">
@@ -293,25 +306,66 @@
     </div>
 </div>
 
-    <!-- 라마트라 -->
-    <div class="hero-container">
-        <div class="hero-header">
-            <div class="img-placeholder">
-                <img src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/f54a877264e161c2aa4d5755ef4411eb7fd7e4eb910075936e91ddb043b8a58e.png" style="width: 100%; height: 100%; object-fit: cover;" alt="라마트라">
-            </div>
-            <div class="hero-name">라마트라 <span class="tag">(버프 / 신규)</span></div>
+
+
+<!-- 라마트라 -->
+<div class="hero-container">
+    <div class="hero-header">
+        <div class="img-placeholder">
+            <img src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/f54a877264e161c2aa4d5755ef4411eb7fd7e4eb910075936e91ddb043b8a58e.png" style="width: 100%; height: 100%; object-fit: cover;" alt="라마트라">
         </div>
-        <div class="hero-body">
-            <div class="dev-comment">
-                그동안 라마트라는 네메시스 형태로 변신한 후 가드만 올리는 경우가 많았습니다. 전반적으로 빨라진 게임 템포에 발맞춰 방벽의 가동률을 높이고, 네메시스 형태에서의 공격적인 변수 능력을 크게 강화했습니다.
-            </div>
-            <ul>
-                <li><span class="highlight">공허 방벽(우클릭):</span> 재사용 대기시간 감소 (12초 → 10초)</li>
-                <li><span class="highlight">응징(좌클릭):</span> <span class="new-effect">[신규 효과]</span> 네메시스 형태에서 펀치 적중 시마다 2초간 이동 속도 4% 및 공격력 5%씩 누적 증가 (최대 4중첩, 이동 속도 최대 16% / 공격력 최대 20%)</li>
-                <li><span class="highlight">절멸(궁극기):</span> 지속시간 증가 (3~20초 → 4.5~30초)</li>
-            </ul>
-        </div>
+        <div class="hero-name">라마트라 <span class="tag">(버프 / 신규 기능)</span></div>
     </div>
+
+    <div class="hero-body">
+        <div class="dev-comment">
+            방벽의 가동률을 높이고, 네메시스 형태에서의 공격적인 활용도를 강화했습니다.
+            신규 기능 '공허 강습'을 통해 수직 기동성을 확보하고, 공중의 적을 제압하거나 광역 충격파로 적진을 교란할 수 있도록 개선했습니다.
+        </div>
+
+        <ul>
+            <li>
+                <span class="highlight">공허 방벽(우클릭):</span>
+                재사용 대기시간 감소 (12초 → 10초)
+            </li>
+
+            <li>
+                <span class="highlight">응징(좌클릭):</span>
+                <span class="new-effect">[신규 효과]</span>
+                적중 시 2초간 이동 속도 4% 및 공격력 5% 증가 (최대 4중첩)
+            </li>
+
+            <li>
+                <span class="highlight">공허 강습:</span>
+                <span class="new-effect">[신규 기능]</span>
+                <ul>
+                    <li>네메시스 형태에서 사용 가능 (변신당 1회 / 절멸 중 사용 불가)</li>
+                    <li>
+                        <span class="highlight">공허 도약:</span>
+                        공중에서 Space 재입력 시 2단 도약. 도약 및 착지 지점에 보라색 원형 이펙트 발생
+                    </li>
+                    <li>
+                        <span class="highlight">공중 내려찍기:</span>
+                        도약 중 Ctrl 입력 시 급강하. 착지 시 반경 8m 내 적에게 50 피해 및 공중으로 밀쳐내기
+                    </li>
+                    <li>
+                        <span class="highlight">공중 응징:</span>
+                        도약 중 응징 적중 시 50의 추가 피해 (대상당 1회). 공중의 적은 강제로 낙하하며, 2.5초 이내 착지 시 0.5초 기절
+                    </li>
+                    <li>공허 강습의 사용 가능 여부 및 상태를 표시하는 HUD 추가</li>
+                </ul>
+            </li>
+
+            <li>
+                <span class="highlight">절멸(궁극기):</span>
+                지속시간 증가 (3~20초 → 4.5~30초)
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
 
 <!-- 레킹볼 -->
 <div class="hero-container">
@@ -324,14 +378,21 @@
 
     <div class="hero-body">
         <div class="dev-comment">
-            파일드라이버 진입의 보상을 강화하고, 레킹볼 특유의 높은 기동성을 직접 공격력으로 연결하는 신규 패시브 '관성'을 추가했습니다.
-            전장을 오래 누비고 높은 곳에서 진입할수록 더욱 강력한 파일드라이버를 사용할 수 있습니다.
+            높은 조작 난이도에 비해 부족했던 레킹볼의 공격력과 킬 결정력을 보완하기 위해 기관총의 화력을 강화하고, 파일드라이버 진입의 보상을 높였습니다.
+            또한 레킹볼 특유의 높은 기동성을 직접 공격력으로 연결하는 신규 패시브 '관성'을 추가했습니다.
+            강화 파일드라이버의 최소 피해량을 보장하여 일반적인 교전에서도 충분한 보상을 얻을 수 있도록 개선했으며, 전장을 오래 누비고 높은 곳에서 진입할수록 더욱 강력한 공격을 가할 수 있습니다.
         </div>
 
         <ul>
             <li>
-                <span class="highlight">기본 무기:</span>
-                탄창 증가 (80발 → 100발)
+                <span class="highlight">4연장 기관총:</span>
+                <ul>
+                    <li>탄창 증가 (80발 → 100발)</li>
+                    <li>
+                        <span class="new-effect">[신규 효과]</span>
+                        적 영웅에게 가하는 기본 공격 피해량 증가 (발당 5 → 6 상당)
+                    </li>
+                </ul>
             </li>
 
             <li>
@@ -350,8 +411,14 @@
                 <ul>
                     <li>공중 이동 거리 150m 누적 시 관성 충전 완료</li>
                     <li>파일드라이버 사용 시 적중 여부와 관계없이 관성 전부 소모</li>
-                    <li>강화 파일드라이버 추가 피해: 사용 고도 3.5 ~ 23.5m에 따라 0 ~ 100</li>
-                    <li>고도 1m당 추가 피해 +5 / 23.5m 이상: 최대 +100</li>
+                    <li>
+                        강화 파일드라이버 추가 피해: 사용 고도 3.5 ~ 13.5m에 따라 25 ~ 75
+                        <ul>
+                            <li>사용 고도 3.5m 기준 최소 추가 피해 25</li>
+                            <li>고도 1m당 추가 피해 +5</li>
+                            <li>13.5m 이상: 최대 추가 피해 75</li>
+                        </ul>
+                    </li>
                     <li>다인 적중 시 각 대상에게 동일한 추가 피해 적용</li>
                     <li>적 영웅 1명 이상 적중 시 적응형 보호막(E) 남은 재사용 대기시간 3초 감소 (파일드라이버 1회당 최대 1회)</li>
                 </ul>
@@ -359,6 +426,7 @@
         </ul>
     </div>
 </div>
+
 
     <!-- 윈스턴 -->
     <div class="hero-container">
