@@ -175,55 +175,39 @@
 
     
 
+
 <!-- 마우가 -->
 <div class="hero-container">
     <div class="hero-header">
         <div class="img-placeholder">
             <img src="https://i.namu.wiki/i/07STJuRTPDCz35CPJveFjyHE-L-bGK3AjztB70ld7OZP295rJXy7OjSScU58C20zFhUZ01hQCbsCnKIsNrUwirar9O6oAFHrdX08At-6RAhtFjXglVE0JwxZMQ6P6jVBHzG9A-FU2d5rI3pn42LgOQ.webp" style="width: 100%; height: 100%; object-fit: cover;" alt="마우가">
         </div>
-        <div class="hero-name">마우가 <span class="tag">(버프 / 조정 / 신규)</span></div>
+        <div class="hero-name">마우가 <span class="tag">(버프 / 신규 지속 효과 / 신규 기능)</span></div>
     </div>
 
     <div class="hero-body">
         <div class="dev-comment">
-            기관포의 중거리 화력과 기동성을 개선하고, 적극적인 추격에 추가 보상을 부여했습니다. 신규 기능 '돌파 도약'으로 수직 기동 선택지도 확보했습니다.
+            마우가의 기본 화력과 화염 기관포의 점화 능력을 강화하여 지속적인 공격 압박 능력을 높였습니다.
+            또한 '끈질긴 추격'을 통해 적극적인 교전에 보상을 부여하고,
+            신규 기능 '돌파 도약'으로 기존에 부족했던 수직 기동 능력을 보완했습니다.
         </div>
 
         <ul>
-
             <li>
-                <span class="highlight">기관포:</span>
-                <ul>
-                    <li>한쪽 기관포 발사 중 이동 속도 감소: 15% → 0%</li>
-                    <li>두 기관포 동시 발사 중 이동 속도 감소: 30% → 20%</li>
-                    <li>
-                        <span class="new-effect">[신규 효과]</span>
-                        두 기관포 동시 발사 시 적 영웅에게 가하는 피해의 거리별 감소 효과 제거
-                        <ul>
-                            <li>10m 초과 거리에서 발생하는 피해 감소분을 추가 피해로 보정</li>
-                            <li>20m 이상의 거리에서도 적중한 탄환의 기본 피해량 유지</li>
-                            <li>한쪽 기관포만 발사할 경우 기존 거리별 피해 감소 유지</li>
-                            <li>기관포의 탄퍼짐은 변경되지 않음</li>
-                        </ul>
-                    </li>
-                </ul>
+                <span class="highlight">가하는 피해량:</span>
+                모든 피해량 15% 증가 (100% → 115%)
             </li>
 
             <li>
-                <span class="highlight">교차 포화:</span>
-                <span class="new-effect">[신규 지속 효과]</span>
-                <ul>
-                    <li>두 기관포를 동시에 1초 이상 연속 발사하면 교차 포화 활성화</li>
-                    <li>활성화 후 두 기관포를 계속 동시에 발사하는 동안 적 영웅에게 가하는 피해량 10% 증가</li>
-                    <li>한쪽 기관포의 발사를 중단하거나 돌파(Shift)를 사용하면 교차 포화 해제</li>
-                </ul>
+                <span class="highlight">화염 기관포:</span>
+                점화율 50% 증가 (100% → 150%)
             </li>
 
             <li>
                 <span class="highlight">돌파(Shift):</span>
                 <span class="new-effect">[신규 효과]</span>
                 <ul>
-                    <li>발구르기로 적을 넘어뜨리면 돌파 남은 재사용 대기시간 2초 감소</li>
+                    <li>발구르기로 적을 넘어뜨리면 돌파의 남은 재사용 대기시간 2초 감소</li>
                 </ul>
             </li>
 
@@ -232,7 +216,7 @@
                 <span class="new-effect">[신규 지속 효과]</span>
                 <ul>
                     <li>돌파 재사용 대기 중 한쪽 기관포로 가한 피해 누적</li>
-                    <li>누적 피해 150: 돌파 남은 재사용 대기시간 2초 감소</li>
+                    <li>누적 피해 150 달성 시 돌파의 남은 재사용 대기시간 2초 감소</li>
                     <li>돌파 재사용 대기시간 1회당 최대 1회 발동</li>
                 </ul>
             </li>
@@ -242,7 +226,7 @@
                 <span class="new-effect">[신규 기능]</span>
                 <ul>
                     <li>적 영웅에게 가한 피해 500 누적 시 돌파 도약 준비</li>
-                    <li>준비 완료 상태에서 돌파(Shift) 중 Ctrl: 충전량 전부 소모 + 공중 상승</li>
+                    <li>준비 완료 상태에서 돌파(Shift) 중 Ctrl: 충전량 전부 소모 및 공중 상승</li>
                     <li>Ctrl 유지: 돌파 중 지속 상승 가능</li>
                     <li>돌파 종료 시 도약 상태 종료</li>
                 </ul>
@@ -250,6 +234,7 @@
         </ul>
     </div>
 </div>
+
 
 
     <!-- D.Va -->
@@ -1087,6 +1072,7 @@
     </div>
 
 
+
 <!-- 솔저: 76 -->
 <div class="hero-container">
     <div class="hero-header">
@@ -1098,7 +1084,9 @@
 
     <div class="hero-body">
         <div class="dev-comment">
-            신규 패시브 '앉아쏴'를 통해 자리를 잡고 사격하는 플레이에 보상을 부여했습니다. 나선 로켓에는 무작위 효과를 추가해 전투의 변수를 늘렸습니다.
+            신규 패시브 '앉아쏴'를 통해 자리를 잡고 사격하는 플레이에 보상을 부여했습니다.
+            또한 '전투 준비'를 추가하여 생체장과 전투 자극제를 적극적인 교전 수단으로 활용할 수 있도록 했습니다.
+            기존 기술과의 연계를 강화하면서도 전투 상황에 따른 선택의 폭을 넓히고자 했습니다.
         </div>
 
         <ul>
@@ -1114,23 +1102,24 @@
             </li>
 
             <li>
+                <span class="highlight">전투 준비:</span>
+                <span class="new-effect">[신규 패시브]</span>
+                생체장 또는 전투 자극제(E)를 사용하면 5초 동안 다음 효과를 얻습니다.
+                <ul>
+                    <li>받는 치유량 25% 증가</li>
+                    <li>가하는 모든 피해량 10% 증가</li>
+                    <li>전술 조준경의 피해량 증가 효과와 중첩 가능</li>
+                </ul>
+            </li>
+
+            <li>
                 <span class="highlight">나선 로켓(우클릭):</span>
                 <ul>
-                    <li>직격 피해량 120</li>
-                    <li><span class="new-effect">[신규 효과]</span> 100 이상 피해를 입히면 재사용 대기시간 4초로 단축 (기본 6초)</li>
                     <li>
-                        <span class="new-effect">[신규 기능]</span>
-                        카지노: 76
-                        <ul>
-                            <li>적중 시 0~40의 무작위 추가 피해 발생 (0: 40% / 10: 30% / 20: 15% / 30: 10% / 40: 5%)</li>
-                            <li>100 이상 피해 발생 시 40% 확률로 추가 상태 이상 효과 발동</li>
-                            <li>화상: 3초간 초당 10 피해 (14%)</li>
-                            <li>치유량 50% 감소: 2초 지속 (10%)</li>
-                            <li>해킹: 1초 지속 (8%)</li>
-                            <li>넘어짐: 1초 지속 (4%)</li>
-                            <li>빙결: 1초 지속 (4%)</li>
-                        </ul>
+                        <span class="new-effect">[신규 효과]</span>
+                        100 이상 피해를 입히면 재사용 대기시간 4초로 단축 (기본 6초)
                     </li>
+                    <li>전술 조준경 사용 중에는 해당 재사용 대기시간 단축 효과가 적용되지 않음</li>
                 </ul>
             </li>
 
@@ -1141,6 +1130,7 @@
         </ul>
     </div>
 </div>
+
 
 
 
